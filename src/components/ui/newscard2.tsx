@@ -47,7 +47,7 @@ export default function NewsCard2({
                 <div className="absolute bottom-0 left-0 right-0 p-5">
                     <div className="flex items-center justify-between gap-3">
                         <div className="space-y-1.5">
-                            <h3 className="text-4xl font-semibold text-white dark:text-zinc-100 leading-snug">{title}</h3>
+                            <h3 className="text-2xl md:text-4xl font-semibold text-white dark:text-zinc-100 leading-snug">{title}</h3>
                         </div>
                     </div>
                 </div>

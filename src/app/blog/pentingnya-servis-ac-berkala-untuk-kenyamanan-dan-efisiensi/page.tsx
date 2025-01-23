@@ -27,21 +27,21 @@ export default function Article1() {
 
   return (
     <main>
-      <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-4 sm:p-20 rounded-xl mx-20`}>
+      <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-8 sm:p-20 rounded-xl xl:mx-20`}>
         <div className="w-full flex flex-col items-start justify-center border rounded-full gap-4 p-3 mt-10">
-          <div className="flex items-center justify-center gap-8">
-            <Link href={"/service"} className="bg-indigo-600 hover:bg-indigo-700 transition-all text-white rounded-full text-8xl p-3 border-4 border-indigo-200">
+          <div className="flex items-center justify-center gap-4 lg:gap-8">
+            <Link href={"/blog"} className="bg-indigo-600 hover:bg-indigo-700 transition-all text-white rounded-full text-4xl lg:text-8xl p-2 lg:p-3 border-4 border-indigo-200">
               <ArrowLeft />
             </Link>
-            <h1 className="text-3xl text-indigo-600 font-semibold">
+            <h1 className="text-xl lg:text-3xl text-indigo-600 font-semibold">
               Kembali ke artikel lain
             </h1>
           </div>
         </div>
 
         <div className="w-full h-full flex items-start justify-between">
-          <div className="flex flex-col w-9/12 h-full pr-4">
-            <div className="h-96">
+          <div className="flex flex-col w-full md:w-9/12 h-full pr-0 md:pr-4">
+            <div className="h-56 md:h-96">
               <NewsCard2
                 title="Pentingnya Servis AC Berkala untuk Kenyamanan dan Efisiensi"
                 subtitle="Melakukan servis AC secara rutin adalah langkah penting untuk menjaga performa perangkat pendingin sekaligus menghemat biaya dalam jangka panjang."
@@ -51,18 +51,18 @@ export default function Article1() {
             </div>
 
             <div className="flex flex-col gap-10">
-              <p className="py-2 text-lg">
+              <p className="py-2 text-md md:text-lg text-justify">
                 Saluran pembuangan yang mampet atau tersumbat adalah masalah umum yang sering terjadi di rumah, kantor, atau fasilitas umum lainnya. Selain dapat menimbulkan bau tidak sedap, saluran mampet juga dapat menyebabkan kerusakan lebih lanjut jika tidak segera ditangani. Dalam artikel ini, kita akan membahas penyebab saluran mampet dan bagaimana cara mengatasinya secara efektif.
               </p>
 
               <div className="flex flex-col gap-2">
-                <h2 className="font-semibold text-2xl">
+                <h2 className="font-semibold text-xl md:text-2xl text-justify">
                   Penyebab Saluran Mampet
                 </h2>
-                <p className="text-lg">
+                <p className="text-md md:text-lg text-justify">
                   Saluran pembuangan yang mampet biasanya disebabkan oleh beberapa faktor berikut:
                 </p>
-                <div className="text-lg">
+                <div className="text-md md:text-lg text-justify">
                   <ul className="list-disc">
                     <li>
                       <span className="font-semibold mr-2">
@@ -99,11 +99,11 @@ export default function Article1() {
               </div>
 
               <div className="flex flex-col gap-2">
-                <h2 className="font-semibold text-2xl">
+                <h2 className="font-semibold text-xl md:text-2xl text-justify">
                   Cara Mengatasi Saluran Mampet
                 </h2>
-                <div className="text-lg">
-                  <ul className="list-disc">
+                <div className="text-md md:text-lg">
+                  <ul className="list-disc text-justify">
                     <li>
                       <span className="font-semibold mr-2">
                         Gunakan Alat Sederhana (Plunger).
@@ -145,14 +145,14 @@ export default function Article1() {
               </div>
 
               <div className="flex flex-col gap-2">
-                <h2 className="font-semibold text-2xl">
+                <h2 className="font-semibold text-xl md:text-2xl text-justify">
                   Pencegahan Saluran Mampet
                 </h2>
-                <p className="text-lg">
+                <p className="text-md md:text-lg text-justify">
                   Untuk mencegah masalah saluran mampet di masa depan, beberapa langkah pencegahan yang dapat dilakukan antara lain:
                 </p>
-                <div className="text-lg">
-                  <ul className="list-disc">
+                <div className="text-md md:text-lg">
+                  <ul className="list-disc text-justify">
                     <li>
                       Hindari membuang minyak, lemak, atau sisa makanan ke dalam saluran.
                     </li>
@@ -171,20 +171,20 @@ export default function Article1() {
 
 
               <div className="flex flex-col gap-2">
-                <h2 className="font-semibold text-2xl">
+                <h2 className="font-semibold text-xl md:text-2xl">
                   Kesimpulan
                 </h2>
-                <p className="text-lg">
+                <p className="text-md md:text-lg text-justify">
                   Saluran mampet adalah masalah yang sering dihadapi, namun dapat diatasi dengan cara yang mudah dan efektif. Dengan menjaga kebersihan saluran pembuangan dan menangani masalah saluran dengan cepat, Anda dapat mencegah kerusakan lebih lanjut. Jika masalah terus berlanjut atau tidak dapat diselesaikan sendiri, jangan ragu untuk menghubungi profesional untuk perbaikan lebih lanjut.
                 </p>
               </div>
 
               <div className="flex flex-col gap-2">
-                <h2 className="font-semibold text-2xl">
+                <h2 className="font-semibold text-xl md:text-2xl text-justify">
                   Referensi
                 </h2>
-                <div className="text-lg text-indigo-600">
-                  <ul className="list-disc">
+                <div className="text-md md:text-lg text-indigo-600">
+                  <ul className="list-disc text-justify">
                     <li>
                       <Link href={"https://www.homedepot.com/c/Plumbing"} className="underline">
                         The Home Depot - Plumbing
@@ -214,7 +214,7 @@ export default function Article1() {
 
           </div>
 
-          <div className="w-3/12 border-l-2  flex flex-col gap-3 justify-end h-full pl-4">
+          <div className="hidden md:flex md:w-3/12 border-l-2 flex-col gap-3 justify-end h-full pl-4">
             <Card08
               title="Solusi Efektif untuk Limbah Lemak dan Minyak Dapur"
               subtitle="Grease trap, atau alat penangkap lemak, adalah perangkat yang dirancang untuk mencegah minyak, lemak, dan partikel padat masuk ke saluran pembuangan utama."
