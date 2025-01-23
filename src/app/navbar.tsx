@@ -13,6 +13,7 @@ import { useState } from "react";
 
 // Font
 import { Outfit } from 'next/font/google';
+import Image from "next/image";
 
 const outfit = Outfit({ subsets: ['latin'] });
 
@@ -40,10 +41,12 @@ export default function ResponsiveNavbar() {
                         href="/"
                         className="flex items-center space-x-3 rtl:space-x-reverse p-0 sm:py-2 sm:px-3 md:bg-transparent md:p-0"
                     >
-                        <img
+                        <Image
                             src="/logogas.png"
-                            className="h-16 navbar-logo"
+                            className="h-16 w-auto navbar-logo"
                             alt="Logo GAS Solution"
+                            width={1000}
+                            height={1000}
                         />
                         <div className={`${outfit.className} text-blue-900 font-bold text-xl`}>
                             GAS <span className="font-light">Solution</span>
@@ -108,10 +111,12 @@ export default function ResponsiveNavbar() {
                 <NavbarContent justify="center">
                     <NavbarBrand>
                         <Link href="/" className="flex items-center space-x-4">
-                            <img
+                            <Image
                                 src="/logogas.png"
-                                className="h-8 navbar-logo"
+                                className="h-8 w-auto navbar-logo"
                                 alt="Logo PT GAS"
+                                width={1000}
+                                height={1000}
                             />
                         </Link>
                     </NavbarBrand>
@@ -124,6 +129,9 @@ export default function ResponsiveNavbar() {
                                 className={`${outfit.className} w-full ${currentPath === item.path
                                     ? "font-semibold" // Apply active class if the link is active
                                     : ""}`}
+                                href={item.path === "#" ? "#" : item.path} // Fix for Mode Toggle
+                                size="lg"
+
                             >
                                 {item.label}
                             </Link>

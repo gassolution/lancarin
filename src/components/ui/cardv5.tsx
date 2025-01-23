@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 type CardContent = {
     title?: string;
@@ -35,7 +36,7 @@ export const SimpleCard_V5 = ({ image, children, title, description }: CardConte
                 )}
             >
                 {image ? (
-                    <img
+                    <Image
                         src={image}
                         alt={title || "Card Image"}
                         className="w-full h-auto rounded-t-xl"

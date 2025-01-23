@@ -192,7 +192,7 @@ export default function Article1() {
                     </li>
                     <li>
                       <Link href={"https://www.angieslist.com/plumbing/"} className="underline">
-                        Angie's List - Plumbing & Drain Cleaning
+                        Angie&apos;s List - Plumbing & Drain Cleaning
                       </Link>
                     </li>
                     <li>
