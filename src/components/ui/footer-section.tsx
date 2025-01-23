@@ -25,18 +25,20 @@ function Footerdemo() {
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="relative">
-            <h2 className="mb-4 text-3xl font-light tracking-tight flex items-center justify-start gap-2">
+            <h2 className="mb-4 text-3xl font-light tracking-tight flex items-center justify-start gap-2 text-indigo-600">
               <Image
                 src="/logogas.png"
                 width={1000}
                 height={1000}
                 alt="AC Maintenance Picture"
-                className="w-10 sm:w-20 h-auto"
+                className="w-10 sm:w-20 lg:w-14 h-auto"
               />
-              <span className="font-bold">
-                GAS
-              </span>
-              Solution
+              <div className="flex lg:flex-col xl:flex-row items-start justify-center">
+                <span className="font-bold">
+                  GAS
+                </span>
+                Solution
+              </div>
             </h2>
             <p className="mb-6 text-muted-foreground">
               PT Gama Abyakta Sejahtera <br />
