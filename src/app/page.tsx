@@ -25,7 +25,7 @@ import NumberTicker from "@/components/ui/number-ticker";
 import { MoveRight, Phone, Waves, Wrench } from 'lucide-react';
 
 // Constructor
-export const gallery = [
+const gallery = [
   {
     title: "Grease Trap",
     link: "#",
