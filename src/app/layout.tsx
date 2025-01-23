@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <NextUIProvider>
-          <div className={`${GeistSans.className} max-w-screen-2xl`}>
+          <div className={`${GeistSans.className} max-w-screen-2xl mx-auto`}>
             <ResponsiveNavbar />
             {children}
             <Footerdemo />
