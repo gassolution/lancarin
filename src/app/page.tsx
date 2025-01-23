@@ -25,7 +25,7 @@ import NumberTicker from "@/components/ui/number-ticker";
 import { MoveRight, Phone, Waves, Wrench } from 'lucide-react';
 
 // Constructor
-export const pictures = [
+export const gallery = [
   {
     title: "Grease Trap",
     link: "#",
@@ -333,7 +333,7 @@ export default function Home() {
         </div>
 
         <div className="w-full">
-          <HeroParallax products={pictures} />
+          <HeroParallax products={gallery} />
         </div>
 
         <div>
