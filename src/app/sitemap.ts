@@ -29,19 +29,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date().toISOString(),
         },
         {
-            url: `${baseUrl}/pentingnya-servis-ac-berkala-untuk-kenyamanan-dan-efisiensi`,
+            url: `${baseUrl}/mengatasi-saluran-mampet-dengan-mudah`,
             lastModified: new Date().toISOString(),
         },
         {
-            url: `${baseUrl}/pentingnya-servis-ac-berkala-untuk-kenyamanan-dan-efisiensi`,
-            lastModified: new Date().toISOString(),
-        },
-        {
-            url: `${baseUrl}/pentingnya-servis-ac-berkala-untuk-kenyamanan-dan-efisiensi`,
-            lastModified: new Date().toISOString(),
-        },
-        {
-            url: `${baseUrl}/pentingnya-servis-ac-berkala-untuk-kenyamanan-dan-efisiensi`,
+            url: `${baseUrl}/solusi-efektif-untuk-limbah-lemak-dan-minyak-dapur`,
             lastModified: new Date().toISOString(),
         },
     ];
