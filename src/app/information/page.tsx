@@ -343,7 +343,7 @@ export default function Information() {
               </TabsContent>
               <TabsContent value="competition">
                 <div className="py-10 flex flex-col gap-4">
-                  <Link href={"#"} className="flex flex-col sm:flex-row gap-6 p-6 border hover:bg-slate-100 rounded-xl transition-all">
+                  <Link href={"#"} aria-label="Content Competition" className="flex flex-col sm:flex-row gap-6 p-6 border hover:bg-slate-100 rounded-xl transition-all">
                     <div className="flex flex-col gap-2 sm:w-8/12 justify-between items-center sm:items-start">
                       <div className="flex flex-col gap-2 lg:gap-4">
                         <h3 className="text-xl lg:text-3xl font-semibold">

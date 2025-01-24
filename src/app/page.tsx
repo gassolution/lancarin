@@ -4,13 +4,13 @@
 import {
   Link
 } from "@nextui-org/react";
-import "animate.css/animate.compat.css";
-import "aos/dist/aos.css";
 import Image from 'next/image';
 
 // UI Libs
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { HeroParallax } from "@/components/ui/hero-parallax";
+import { LineShadowText } from "@/components/ui/line-shadow-text";
+import NumberTicker from "@/components/ui/number-ticker";
 
 // Font
 import { Outfit } from 'next/font/google';
@@ -18,8 +18,6 @@ import { Outfit } from 'next/font/google';
 const outfit = Outfit({ subsets: ['latin'] })
 
 // Icons
-import { LineShadowText } from "@/components/ui/line-shadow-text";
-import NumberTicker from "@/components/ui/number-ticker";
 import { MoveRight, Phone, Waves, Wrench } from 'lucide-react';
 import Head from "next/head";
 
@@ -181,8 +179,8 @@ export default function Home() {
                   <CardItem translateZ="100" className="w-full mt-4">
                     <Image
                       src="/images/saluranair.jpg"
-                      height="1000"
-                      width="1000"
+                      height={1000}
+                      width={1000}
                       className="aspect-video w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt="thumbnail"
                     />
@@ -226,8 +224,8 @@ export default function Home() {
                   <CardItem translateZ="100" className="w-full mt-4">
                     <Image
                       src="/images/greasetrap.jpg"
-                      height="1000"
-                      width="1000"
+                      height={1000}
+                      width={1000}
                       className="aspect-video w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt="thumbnail"
                     />
@@ -271,8 +269,8 @@ export default function Home() {
                   <CardItem translateZ="100" className="w-full mt-4">
                     <Image
                       src="/images/acmaintenance.jpg"
-                      height="1000"
-                      width="1000"
+                      height={1000}
+                      width={1000}
                       className="aspect-video w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt="thumbnail"
                     />

@@ -30,7 +30,7 @@ export default function NumberTicker({
     if (isInView) {
       setTimeout(() => {
         motionValue.set(direction === "down" ? 0 : value);
-      }, delay * 1000);
+      }, delay * 100);
     }
   }, [motionValue, isInView, delay, value, direction]);
 
