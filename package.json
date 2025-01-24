@@ -22,6 +22,8 @@
     "@radix-ui/react-tooltip": "^1.1.6",
     "@tsparticles/preset-stars": "^3.2.0",
     "@tsparticles/shape-star": "^3.7.1",
+    "@vercel/analytics": "^1.4.1",
+    "@vercel/speed-insights": "^1.1.0",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.1",

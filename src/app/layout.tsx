@@ -1,4 +1,6 @@
 import { NextUIProvider } from "@nextui-org/react";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import * as React from "react";
 import "./globals.css";
@@ -26,6 +28,8 @@ export default function RootLayout({
           <div className={`${GeistSans.className} max-w-screen-2xl mx-auto`}>
             <ResponsiveNavbar />
             {children}
+            <Analytics />
+            <SpeedInsights />
             <Footerdemo />
           </div>
         </NextUIProvider>
