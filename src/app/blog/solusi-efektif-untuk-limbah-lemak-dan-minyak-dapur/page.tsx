@@ -20,7 +20,7 @@ const outfit = Outfit({ subsets: ['latin'] })
 
 // Icons
 
-export default function Article1() {
+export default function Article2() {
 
   useEffect(() => {
     AOS.init({})
@@ -29,13 +29,13 @@ export default function Article1() {
   return (
     <>
       <Head>
-        <title>Pentingnya Servis AC Berkala untuk Kenyamanan dan Efisiensi</title>
-        <meta name="description" content="Melakukan servis AC secara rutin adalah langkah penting untuk menjaga performa perangkat pendingin sekaligus menghemat biaya dalam jangka panjang." />
+        <title>Solusi Efektif untuk Limbah Lemak dan Minyak Dapur</title>
+        <meta name="description" content="Grease trap, atau alat penangkap lemak, adalah perangkat yang dirancang untuk mencegah minyak, lemak, dan partikel padat masuk ke saluran pembuangan utama. Fungsinya sangat penting dalam menjaga kelancaran sistem pengelolaan limbah dapur, baik di restoran, hotel, maupun dapur rumah tangga." />
         <meta name="keywords" content="PT Gama Abyakta Sejahtera, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
         <meta name="author" content="PT Gama Abyakta Sejahtera" />
-        <meta property="og:title" content="Pentingnya Servis AC Berkala untuk Kenyamanan dan Efisiensi" />
-        <meta property="og:description" content="Melakukan servis AC secara rutin adalah langkah penting untuk menjaga performa perangkat pendingin sekaligus menghemat biaya dalam jangka panjang." />
-        <meta property="og:image" content="/images/acmaintenance.jpg" />
+        <meta property="og:title" content="Solusi Efektif untuk Limbah Lemak dan Minyak Dapur" />
+        <meta property="og:description" content="Grease trap, atau alat penangkap lemak, adalah perangkat yang dirancang untuk mencegah minyak, lemak, dan partikel padat masuk ke saluran pembuangan utama. Fungsinya sangat penting dalam menjaga kelancaran sistem pengelolaan limbah dapur, baik di restoran, hotel, maupun dapur rumah tangga." />
+        <meta property="og:image" content="/images/greasetrap.jpg" />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
@@ -56,58 +56,61 @@ export default function Article1() {
             <div className="flex flex-col w-full md:w-9/12 h-full pr-0 md:pr-4">
               <div className="h-56 md:h-96">
                 <NewsCard2
-                  title="Pentingnya Servis AC Berkala untuk Kenyamanan dan Efisiensi"
-                  subtitle="Melakukan servis AC secara rutin adalah langkah penting untuk menjaga performa perangkat pendingin sekaligus menghemat biaya dalam jangka panjang."
-                  image="/images/acmaintenance.jpg"
+                  title="Solusi Efektif untuk Limbah Lemak dan Minyak Dapur"
+                  subtitle="Grease trap, atau alat penangkap lemak, adalah perangkat yang dirancang untuk mencegah minyak, lemak, dan partikel padat masuk ke saluran pembuangan utama. Fungsinya sangat penting dalam menjaga kelancaran sistem pengelolaan limbah dapur, baik di restoran, hotel, maupun dapur rumah tangga."
+                  image="/images/greasetrap.jpg"
                   badge={{ text: "Rekomendasi", variant: "pink" }}>
                 </NewsCard2>
               </div>
 
               <div className="flex flex-col gap-10">
                 <p className="py-2 text-md md:text-lg text-justify">
-                  Melakukan servis AC secara rutin adalah langkah penting untuk menjaga performa perangkat pendingin sekaligus menghemat biaya dalam jangka panjang. Berikut manfaat utama servis AC berkala:
+                  Grease trap, atau alat penangkap lemak, adalah perangkat yang dirancang untuk mencegah minyak, lemak, dan partikel padat masuk ke saluran pembuangan utama. Fungsinya sangat penting dalam menjaga kelancaran sistem pengelolaan limbah dapur, baik di restoran, hotel, maupun dapur rumah tangga.
                 </p>
-                <div className="text-md md:text-lg text-justify">
-                  <ul className="list-disc">
-                    <li>
-                      <span className="font-semibold mr-2">
-                        Efisiensi Energi Lebih Baik.
-                      </span>
-                      AC yang kotor memerlukan lebih banyak energi untuk mencapai suhu yang diinginkan, sehingga meningkatkan tagihan listrik. Pembersihan rutin memastikan kinerja optimal dengan penggunaan energi lebih hemat.
-                    </li>
-                    <li>
-                      <span className="font-semibold mr-2">
-                        Memperpanjang Umur Pemakaian AC
-                      </span>
-                      Kerusakan kecil yang tidak terdeteksi dapat memperpendek usia pakai AC. Melalui servis berkala, teknisi dapat mengidentifikasi dan memperbaiki masalah sejak dini.
-                    </li>
-                    <li>
-                      <span className="font-semibold mr-2">
-                        Kualitas Udara Lebih Bersih
-                      </span>
-                      Debu dan bakteri yang menumpuk pada filter dan komponen AC dapat mencemari udara di dalam ruangan. Perawatan rutin membersihkan filter sehingga udara yang dihasilkan lebih sehat.
-                    </li>
-                    <li>
-                      <span className="font-semibold mr-2">
-                        Mencegah Gangguan Mendadak
-                      </span>
-                      Pemeliharaan rutin mengurangi risiko AC rusak di tengah penggunaan, seperti saat cuaca panas. Teknisi juga dapat memastikan komponen dalam kondisi baik sebelum terjadi kerusakan besar.
-                    </li>
-                    <li>
-                      <span className="font-semibold mr-2">
-                        Kenyamanan Maksimal
-                      </span>
-                      AC yang dirawat dengan baik akan menghasilkan udara lebih dingin, stabil, dan bekerja dengan lebih tenang, meningkatkan kenyamanan penghuni.
-                    </li>
-                  </ul>
+
+                <div className="flex flex-col gap-2">
+                  <h2 className="font-semibold text-xl md:text-2xl text-justify">
+                    Cara Kerja Grease Trap
+                  </h2>
+                  <p className="text-md md:text-lg text-justify">
+                    Grease trap memisahkan lemak dan minyak dari air limbah dapur. Proses ini dilakukan dengan memperlambat aliran air sehingga lemak mengapung ke permukaan, sementara partikel padat mengendap di dasar. Air yang telah tersaring lebih bersih dan dapat dibuang ke saluran pembuangan tanpa risiko penyumbatan.
+                  </p>
+                </div>
+
+                <div className="flex flex-col gap-2">
+                  <h2 className="font-semibold text-xl md:text-2xl text-justify">
+                    Manfaat Grease Trap
+                  </h2>
+                  <div className="text-md md:text-lg">
+                    <ul className="list-disc text-justify">
+                      <li>
+                        <span className="font-semibold mr-2">
+                          Mencegah Penyumbatan:
+                        </span>
+                        Minyak dan lemak yang terakumulasi dapat menyumbat pipa dan merusak sistem saluran.
+                      </li>
+                      <li>
+                        <span className="font-semibold mr-2">
+                          Perlindungan Lingkungan:
+                        </span>
+                        Dengan menyaring lemak sebelum mencapai sistem limbah umum, grease trap membantu mengurangi pencemaran air dan menjaga ekosistem.
+                      </li>
+                      <li>
+                        <span className="font-semibold mr-2">
+                          Kepatuhan Regulasi:
+                        </span>
+                        Banyak daerah mensyaratkan pengelolaan limbah lemak dengan alat seperti grease trap untuk menghindari denda atau sanksi hukum.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
 
                 <div className="flex flex-col gap-2">
                   <h2 className="font-semibold text-xl md:text-2xl">
-                    Kesimpulan
+                    Pentingnya Pemeliharaan
                   </h2>
                   <p className="text-md md:text-lg text-justify">
-                    Jadwal servis AC disarankan setiap 3–6 bulan sekali, tergantung tingkat pemakaian. Langkah ini tidak hanya menghemat biaya listrik tetapi juga memastikan udara yang lebih sehat di rumah atau tempat kerja.
+                    Pemeliharaan berkala seperti pembersihan dan penggantian komponen penting dilakukan untuk menjaga efektivitas grease trap. Tanpa perawatan, grease trap dapat kehilangan fungsinya dan justru menyebabkan masalah baru, seperti bau tidak sedap atau penyumbatan.
                   </p>
                 </div>
 
@@ -118,19 +121,18 @@ export default function Article1() {
                   <div className="text-md md:text-lg text-indigo-600">
                     <ul className="list-disc text-justify">
                       <li>
-                        <Link href={"https://micool.id/blog/detail/mengapa-service-ac-secara-berkala-penting-untuk-kesehatan-ac-anda"} className="underline">
-                          Mengapa Service AC Secara Berkala Penting untuk Kesehatan AC Anda?
-
+                        <Link href={"https://dapurstainless.id/fungsi-alat-grease-trap/"} className="underline">
+                          Dapur Stainless
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://www.abangbenerin.com/blog/mengapa-service-ac-rutin-itu-penting-simak-manfaatnya/"} className="underline">
-                          5 Alasan Mengapa Anda Harus Melakukan Service AC Rutin
+                        <Link href={"https://www.sodarastainless.com/instalasi/grease-trap-industri-restoran/"} className="underline">
+                          Sodara Stainless
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://www.abangbenerin.com/blog/4-alasan-pentingnya-melakukan-service-ac/"} className="underline">
-                          Tips Penting Merawat AC Anda Agar Tetap Awet
+                        <Link href={"https://wikielektronika.com/grease-trap/"} className="underline">
+                          WikiElektronika.com
                         </Link>
                       </li>
                     </ul>
