@@ -52,8 +52,8 @@ export default function GreaseTrap() {
             <SimpleCard_V5>
               <Image
                 src="/images/greasetrap.jpg"
-                height="100"
-                width="100"
+                height={1000}
+                width={1000}
                 className="h-64 w-96 object-cover rounded-sm group-hover/card:shadow-xl"
                 alt="Perawatan Grease Trap"
               />

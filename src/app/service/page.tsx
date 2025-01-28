@@ -118,8 +118,8 @@ export default function Service() {
                   <div className="absolute w-full h-full top-0 left-0 transition duration-300 bg-black opacity-50 group-hover/card:opacity-70"></div>
                   <div className="flex flex-row items-center space-x-4 z-10">
                     <Image
-                      height="100"
-                      width="100"
+                      height={1000}
+                      width={1000}
                       alt="Avatar"
                       src="/logogas.png"
                       className="h-10 w-10 rounded-full object-cover"
