@@ -49,7 +49,7 @@ export default function ResponsiveNavbar() {
                             height={1000}
                         />
                         <div className={`${outfit.className} text-blue-900 font-bold text-xl`}>
-                            GAS <span className="font-light">Solution</span>
+                            Ecofix
                         </div>
                     </Link>
                 </div>
