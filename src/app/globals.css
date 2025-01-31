@@ -74,11 +74,11 @@ body {
 }
 
 @font-face {
-  font-family: Coolvetica;
-  src: url("/public/fonts/Coolvetica.otf") format("opentype");
+  font-family: Logo Font;
+  src: url("/fonts/Coolvetica.otf") format("opentype");
 }
 
 .logo {
-  font-family: Coolvetica;
+  font-family: Logo Font;
   font-style: italic;
 }
