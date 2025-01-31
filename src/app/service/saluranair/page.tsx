@@ -25,7 +25,7 @@ export default function SaluranAir() {
       <Head>
         <title>Jasa Pembersihan Saluran Mampet</title>
         <meta name="description" content="GAS Solution menyediakan layanan solusi saluran mampet atau drain cleaning profesional untuk memastikan saluran pembuangan anda tetap bersih dan bebas sumbatan." />
-        <meta name="keywords" content="PT Gama Abyakta Sejahtera, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
+        <meta name="keywords" content="PT Gama Abyakta Sejahtera, Ecofix, Gas solution, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
         <meta name="author" content="PT Gama Abyakta Sejahtera" />
         <meta property="og:title" content="Jasa Pembersihan Saluran Mampet" />
         <meta property="og:description" content="GAS Solution menyediakan layanan solusi saluran mampet atau drain cleaning profesional untuk memastikan saluran pembuangan anda tetap bersih dan bebas sumbatan." />
@@ -46,7 +46,7 @@ export default function SaluranAir() {
             </div>
           </div>
           <p className="text-md md:text-lg text-center w-full md:w-2/3">
-            GAS Solution menyediakan layanan solusi saluran mampet atau drain cleaning profesional untuk memastikan saluran pembuangan anda tetap bersih dan bebas sumbatan. Layanan kami meliputi:
+            Ecofix menyediakan layanan solusi saluran mampet atau drain cleaning profesional untuk memastikan saluran pembuangan anda tetap bersih dan bebas sumbatan. Layanan kami meliputi:
           </p>
           <div>
             <SimpleCard_V5>

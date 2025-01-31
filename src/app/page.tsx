@@ -86,7 +86,7 @@ const gallery = [
       "/images/onfield-2.jpg",
   },
   {
-    title: "Teknisi GAS Solution",
+    title: "Teknisi Ecofix",
     link: "https://renderwork.studio",
     thumbnail:
       "/images/onfield-1.jpg",
@@ -98,11 +98,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Plumbing Service, Grease Trap, AC Maintenance | GAS Solution</title>
+        <title>Plumbing Service, Grease Trap, AC Maintenance | Ecofix</title>
         <meta name="description" content="Mendukung perusahaan dan perumahan dengan engineering service kami di daerah Jabodetabek dengan kualitas terjaga dan layanan tanpa batas!" />
-        <meta name="keywords" content="PT Gama Abyakta Sejahtera, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
+        <meta name="keywords" content="PT Gama Abyakta Sejahtera, Ecofix, Gas solution, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
         <meta name="author" content="PT Gama Abyakta Sejahtera" />
-        <meta property="og:title" content="Plumbing Service, Grease Trap, AC Maintenance | GAS Solution" />
+        <meta property="og:title" content="Plumbing Service, Grease Trap, AC Maintenance | Ecofix" />
         <meta property="og:description" content="Mendukung perusahaan dan perumahan dengan engineering service kami di daerah Jabodetabek dengan kualitas terjaga dan layanan tanpa batas!" />
         <meta property="og:image" content="/images/saluranair.jpg" />
         <meta property="og:type" content="website" />
@@ -171,7 +171,7 @@ export default function Home() {
                     translateZ="60"
                     className="text-black text-sm lg:text-md w-full mt-2"
                   >
-                    Jasa drain cleaning dari GAS Solution bertujuan untuk memberikan solusi perawatan gedung untuk saluran mampet yang efektif dan berkelanjutan dalam menjaga kebersihan dan kelancaran sistem pipa dan drainase pelanggan kami.
+                    Jasa drain cleaning dari Ecofix bertujuan untuk memberikan solusi perawatan gedung untuk saluran mampet yang efektif dan berkelanjutan dalam menjaga kebersihan dan kelancaran sistem pipa dan drainase pelanggan kami.
                   </CardItem>
                 </div>
 
@@ -216,7 +216,7 @@ export default function Home() {
                     translateZ="60"
                     className="text-black text-sm lg:text-md w-full mt-2"
                   >
-                    GAS Solution menawarkan layanan perawatan grease trap profesional untuk memastikan sistem limbah dapur Anda tetap bersih dan berfungsi optimal.
+                    Ecofix menawarkan layanan perawatan grease trap profesional untuk memastikan sistem limbah dapur Anda tetap bersih dan berfungsi optimal.
                   </CardItem>
                 </div>
 
@@ -261,7 +261,7 @@ export default function Home() {
                     translateZ="60"
                     className="text-black text-sm lg:text-md w-full mt-2"
                   >
-                    Tidak hanya dalam plumbing services, GAS Solution juga menyediakan jasa&nbsp;AC Maintenance&nbsp;untuk industri yang membutuhkan pendinginan konstan, seperti; perkantoran atau fasilitas komersial lainnya.
+                    Tidak hanya dalam plumbing services, Ecofix juga menyediakan jasa&nbsp;AC Maintenance&nbsp;untuk industri yang membutuhkan pendinginan konstan, seperti; perkantoran atau fasilitas komersial lainnya.
                   </CardItem>
                 </div>
 
@@ -311,7 +311,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-4">
                 <div className={`${outfit.className} text-7xl lg:text-8xl`}>
-                  <NumberTicker value={29} />+
+                  <NumberTicker value={65} />+
                 </div>
                 <div className="text-xl lg:text-3xl font-semibold">
                   Klien
@@ -322,13 +322,13 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-4">
                 <div className={`${outfit.className} text-7xl lg:text-8xl`}>
-                  <NumberTicker value={40} />+
+                  <NumberTicker value={25} />+
                 </div>
                 <div className="text-xl lg:text-3xl font-semibold">
-                  Teknisi
+                  Expert
                 </div>
                 <div className="text-lg">
-                  Lebih dari 40 teknisi berpengalaman yang siap membantu Anda
+                  Lebih dari 40 expert berpengalaman yang siap membantu Anda
                 </div>
               </div>
               <div>

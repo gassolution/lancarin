@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   keywords: [
     "pt gama abyakta sejahtera",
     "gas solution",
+    "ecofix",
+    "lancarin",
+    "ecofix id",
+    "lancarin com",
     "gama abyakta sejahtera",
     "jasa saluran mampet",
     "saluran mampet",
@@ -50,8 +54,8 @@ export const metadata: Metadata = {
     "sedot wc jakarta",
   ],
   title: {
-    default: "Plumbing Service, Grease Trap, dan AC Service | GAS Solution",
-    template: "%s | GAS Solution"
+    default: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
+    template: "%s | Ecofix"
   },
   openGraph: {
     description:

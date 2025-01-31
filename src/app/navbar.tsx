@@ -44,7 +44,7 @@ export default function ResponsiveNavbar() {
                         <Image
                             src="/logogas.png"
                             className="h-16 w-auto navbar-logo"
-                            alt="Logo GAS Solution"
+                            alt="Logo Ecofix"
                             width={1000}
                             height={1000}
                         />
