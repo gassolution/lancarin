@@ -111,7 +111,7 @@ export default function Home() {
       <main>
         <div className="overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-16 sm:p-20 rounded-xl xl:mx-20">
           <div className="relative flex flex-col md:flex-row gap-8 items-center sm:py-6 lg:py-10">
-            <div className="flex flex-col gap-4 md:w-4/6 mt-10 md:mt-0 sm:px-0 lg:py-10">
+            <div className="flex flex-col gap-4 md:w-4/6 mt-10 md:mt-0 sm:px-0 lg:py-20">
               <div
                 className={`${outfit.className} relative font-bold text-2xl md:text-3xl xl:text-6xl title-head max-w-7xl mx-auto text-center md:text-left z-10 text-indigo-600`}
               >
