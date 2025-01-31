@@ -48,8 +48,8 @@ export default function ResponsiveNavbar() {
                             width={1000}
                             height={1000}
                         />
-                        <div className={`${outfit.className} text-blue-900 font-bold text-xl`}>
-                            Ecofix
+                        <div className="text-blue-800 logo text-4xl">
+                            ecofix
                         </div>
                     </Link>
                 </div>

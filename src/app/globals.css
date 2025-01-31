@@ -72,3 +72,13 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: Coolvetica;
+  src: url("/public/fonts/Coolvetica.otf") format("opentype");
+}
+
+.logo {
+  font-family: Coolvetica;
+  font-style: italic;
+}
