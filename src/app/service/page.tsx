@@ -42,7 +42,7 @@ export default function Service() {
             </p>
           </div>
           <div className="relative grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8 items-center">
-            <Link href={"/service/saluranair"} rel="canonical">
+            <Link href={"/service/saluranair"} rel="canonical" aria-label="Saluran Air">
               <div className="max-w-xs w-full group/card">
                 <div
                   className={cn(
@@ -71,7 +71,7 @@ export default function Service() {
                 </div>
               </div>
             </Link>
-            <Link href={"/service/greasetrap"} rel="canonical">
+            <Link href={"/service/greasetrap"} rel="canonical" aria-label="Grease Trap">
               <div className="max-w-xs w-full group/card">
                 <div
                   className={cn(
@@ -100,7 +100,7 @@ export default function Service() {
                 </div>
               </div>
             </Link>
-            <Link href={"/service/ac"} rel="canonical">
+            <Link href={"/service/ac"} rel="canonical" aria-label="AC Service">
               <div className="max-w-xs w-full group/card">
                 <div
                   className={cn(
