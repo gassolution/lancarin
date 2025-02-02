@@ -19,8 +19,6 @@ const outfit = Outfit({ subsets: ['latin'] })
 
 // Icons
 import { MoveRight, Phone, Waves, Wrench } from 'lucide-react';
-import { Metadata } from "next";
-import Head from "next/head";
 
 // Constructor
 const gallery = [
@@ -94,72 +92,10 @@ const gallery = [
   },
 ];
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://www.gas-solution.com"),
-  keywords: [
-    "pt gama abyakta sejahtera",
-    "gas solution",
-    "ecofix",
-    "lancarin",
-    "ecofix id",
-    "lancarin com",
-    "gama abyakta sejahtera",
-    "jasa saluran mampet",
-    "saluran mampet",
-    "jasa saluran mampet terdekat",
-    "jasa saluran mampet bekasi",
-    "alat pendorong saluran mampet",
-    "cara menggunakan soda api untuk saluran mampet",
-    "tukang saluran mampet",
-    "cara pakai soda api untuk saluran mampet",
-    "jasa saluran mampet jogja",
-    "jasa saluran mampet bandung",
-    "saluran mampet jogja",
-    "jasa saluran mampet jakarta",
-    "plumbing adalah",
-    "apa itu plumbing",
-    "pekerjaan plumbing",
-    "instalasi plumbing air bersih",
-    "sistem plumbing gedung bertingkat",
-    "plumbing air bersih",
-    "sistem plumbing adalah",
-    "mechanical electrical plumbing adalah",
-    "pekerjaan plumbing adalah",
-    "plumbness adalah",
-    "grease trap adalah",
-    "apa itu grease trap",
-    "cara membersihkan grease trap",
-    "cara kerja grease trap",
-    "biaya servis ac rumah",
-    "cara servis ac rumah",
-    "sedot wc terdekat",
-    "sedot wc jakarta",
-  ],
-  title: {
-    default: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
-    template: "%s | Ecofix"
-  },
-  openGraph: {
-    description:
-      "Kami adalah perusahaan engineering maintenance services yang menyediakan jasa perawatan gedung atau plumbing profesional di daerah Jakarta, Bogor, Depok, Tangerang dan Bekasi(Jabodetabek) yang dipercaya oleh hotel bintang lima, mall, perkantoran, dan klien retail di daerah anda."
-  }
-};
-
 export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Plumbing Service, Grease Trap, AC Maintenance | Ecofix</title>
-        <meta name="description" content="Mendukung perusahaan dan perumahan dengan engineering service kami di daerah Jabodetabek dengan kualitas terjaga dan layanan tanpa batas!" />
-        <meta name="keywords" content="PT Gama Abyakta Sejahtera, Ecofix, Gas solution, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
-        <meta name="author" content="PT Gama Abyakta Sejahtera" />
-        <meta property="og:title" content="Plumbing Service, Grease Trap, AC Maintenance | Ecofix" />
-        <meta property="og:description" content="Mendukung perusahaan dan perumahan dengan engineering service kami di daerah Jabodetabek dengan kualitas terjaga dan layanan tanpa batas!" />
-        <meta property="og:image" content="/images/saluranair.jpg" />
-        <meta property="og:type" content="website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
       <main>
         <div className="overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-16 sm:p-20 rounded-xl xl:mx-20">
           <div className="relative flex flex-col md:flex-row gap-8 items-center sm:py-6 lg:py-10">

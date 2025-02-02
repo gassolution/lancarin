@@ -32,13 +32,6 @@ export default function Blog() {
       <Head>
         <title>Artikel Ecofix</title>
         <meta name="description" content="Kumpulan artikel-artikel seputar mengatasi saluran mampet, merawat grease trap, dan perawatan ac." />
-        <meta name="keywords" content="PT Gama Abyakta Sejahtera, Ecofix, Gas solution, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
-        <meta name="author" content="PT Gama Abyakta Sejahtera" />
-        <meta property="og:title" content="Artikel Ecofix" />
-        <meta property="og:description" content="Kumpulan artikel-artikel seputar mengatasi saluran mampet, merawat grease trap, dan perawatan ac." />
-        <meta property="og:image" content="/images/saluranair.jpg" />
-        <meta property="og:type" content="website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <main>
         <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-8 sm:p-20 rounded-xl xl:mx-20`}>

@@ -28,15 +28,8 @@ export default function Service() {
   return (
     <>
       <Head>
-        <title>Layanan Ecofix</title>
-        <meta name="description" content="Mendukung perusahaan dan perumahan dengan engineering service kami di daerah Jabodetabek dengan kualitas terjaga dan layanan tanpa batas!" />
-        <meta name="keywords" content="PT Gama Abyakta Sejahtera, Ecofix, Gas solution, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
-        <meta name="author" content="PT Gama Abyakta Sejahtera" />
-        <meta property="og:title" content="Layanan Ecofix" />
-        <meta property="og:description" content="PT GAS menyediakan layanan engineering terbaik. Kami menyediakan jasa plumbing service, grease trap, dan AC maintenance" />
-        <meta property="og:image" content="/images/saluranair.jpg" />
-        <meta property="og:type" content="website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Plumbing Service, Grease Trap, dan AC Service | Layanan Ecofix</title>
+        <meta name="description" content="Layanan kami mencakup plumbing service untuk pembersihan saluran air, grease trap, dan AC service." />
       </Head>
       <main>
         <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-16 sm:p-20 rounded-xl xl:mx-20`}>

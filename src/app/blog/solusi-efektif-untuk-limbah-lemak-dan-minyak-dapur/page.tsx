@@ -29,15 +29,8 @@ export default function Article2() {
   return (
     <>
       <Head>
-        <title>Solusi Efektif untuk Limbah Lemak dan Minyak Dapur</title>
+        <title>Solusi Efektif untuk Limbah Lemak dan Minyak Dapur | Ecofix</title>
         <meta name="description" content="Grease trap, atau alat penangkap lemak, adalah perangkat yang dirancang untuk mencegah minyak, lemak, dan partikel padat masuk ke saluran pembuangan utama. Fungsinya sangat penting dalam menjaga kelancaran sistem pengelolaan limbah dapur, baik di restoran, hotel, maupun dapur rumah tangga." />
-        <meta name="keywords" content="PT Gama Abyakta Sejahtera, Ecofix, Gas solution, sedot wc, jasa sedot wc, jasa saluran mampet, saluran mampet, jasa saluran mampet terdekat, jasa saluran mampet bekasi, alat pendorong saluran mampet, cara menggunakan soda api untuk saluran mampet, tukang saluran mampet, cara pakai soda api untuk saluran mampet, jasa saluran mampet jogja, jasa saluran mampet bandung, saluran mampet jogja, jasa saluran mampet jakarta, plumbing adalah, apa itu plumbing, pekerjaan plumbing, instalasi plumbing air bersih, sistem plumbing gedung bertingkat, plumbing air bersih, sistem plumbing adalah, mechanical electrical plumbing adalah, pekerjaan plumbing adalah, plumbness adalah, grease trap adalah, apa itu grease trap, cara membersihkan grease trap, cara kerja grease trap, biaya servis ac rumah, cara servis ac rumah, sedot wc terdekat, sedot wc jakarta" />
-        <meta name="author" content="PT Gama Abyakta Sejahtera" />
-        <meta property="og:title" content="Solusi Efektif untuk Limbah Lemak dan Minyak Dapur" />
-        <meta property="og:description" content="Grease trap, atau alat penangkap lemak, adalah perangkat yang dirancang untuk mencegah minyak, lemak, dan partikel padat masuk ke saluran pembuangan utama. Fungsinya sangat penting dalam menjaga kelancaran sistem pengelolaan limbah dapur, baik di restoran, hotel, maupun dapur rumah tangga." />
-        <meta property="og:image" content="/images/greasetrap.jpg" />
-        <meta property="og:type" content="website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <main>
         <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-8 sm:p-20 rounded-xl xl:mx-20`}>
