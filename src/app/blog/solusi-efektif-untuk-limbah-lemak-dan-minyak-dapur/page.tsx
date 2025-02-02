@@ -43,12 +43,12 @@ export default function Article2() {
         <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-8 sm:p-20 rounded-xl xl:mx-20`}>
           <div className="w-full flex flex-col items-start justify-center border rounded-full gap-4 p-3 mt-10">
             <div className="flex items-center justify-center gap-4 lg:gap-8">
-              <Link href={"/blog"} className="bg-indigo-600 hover:bg-indigo-700 transition-all text-white rounded-full text-4xl lg:text-8xl p-2 lg:p-3 border-4 border-indigo-200">
+              <Link href={"/blog"} className="bg-indigo-600 hover:bg-indigo-700 transition-all text-white rounded-full text-4xl lg:text-8xl p-2 lg:p-3 border-4 border-indigo-200" rel="canonical">
                 <ArrowLeft />
               </Link>
-              <h1 className="text-xl lg:text-3xl text-indigo-600 font-semibold">
+              <h2 className="text-xl lg:text-3xl text-indigo-600 font-semibold">
                 Kembali ke artikel lain
-              </h1>
+              </h2>
             </div>
           </div>
 
@@ -121,17 +121,17 @@ export default function Article2() {
                   <div className="text-md md:text-lg text-indigo-600">
                     <ul className="list-disc text-justify">
                       <li>
-                        <Link href={"https://dapurstainless.id/fungsi-alat-grease-trap/"} className="underline">
+                        <Link href={"https://dapurstainless.id/fungsi-alat-grease-trap/"} className="underline" rel="canonical">
                           Dapur Stainless
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://www.sodarastainless.com/instalasi/grease-trap-industri-restoran/"} className="underline">
+                        <Link href={"https://www.sodarastainless.com/instalasi/grease-trap-industri-restoran/"} className="underline" rel="canonical">
                           Sodara Stainless
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://wikielektronika.com/grease-trap/"} className="underline">
+                        <Link href={"https://wikielektronika.com/grease-trap/"} className="underline" rel="canonical">
                           WikiElektronika.com
                         </Link>
                       </li>

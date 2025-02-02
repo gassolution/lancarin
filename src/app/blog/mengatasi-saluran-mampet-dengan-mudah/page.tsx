@@ -43,7 +43,7 @@ export default function Article3() {
         <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-8 sm:p-20 rounded-xl xl:mx-20`}>
           <div className="w-full flex flex-col items-start justify-center border rounded-full gap-4 p-3 mt-10">
             <div className="flex items-center justify-center gap-4 lg:gap-8">
-              <Link href={"/blog"} className="bg-indigo-600 hover:bg-indigo-700 transition-all text-white rounded-full text-4xl lg:text-8xl p-2 lg:p-3 border-4 border-indigo-200">
+              <Link href={"/blog"} className="bg-indigo-600 hover:bg-indigo-700 transition-all text-white rounded-full text-4xl lg:text-8xl p-2 lg:p-3 border-4 border-indigo-200" rel="canonical">
                 <ArrowLeft />
               </Link>
               <h1 className="text-xl lg:text-3xl text-indigo-600 font-semibold">
@@ -199,22 +199,22 @@ export default function Article3() {
                   <div className="text-md md:text-lg text-indigo-600">
                     <ul className="list-disc text-justify">
                       <li>
-                        <Link href={"https://www.homedepot.com/c/Plumbing"} className="underline">
+                        <Link href={"https://www.homedepot.com/c/Plumbing"} className="underline" rel="canonical">
                           The Home Depot - Plumbing
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://www.angieslist.com/plumbing/"} className="underline">
+                        <Link href={"https://www.angieslist.com/plumbing/"} className="underline" rel="canonical">
                           Angie&apos;s List - Plumbing & Drain Cleaning
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://www.diyplumbing.co.uk/"} className="underline">
+                        <Link href={"https://www.diyplumbing.co.uk/"} className="underline" rel="canonical">
                           DIY Plumbing Solutions
                         </Link>
                       </li>
                       <li>
-                        <Link href={"https://www.familyhandyman.com/project/how-to-unclog-a-drain/"} className="underline">
+                        <Link href={"https://www.familyhandyman.com/project/how-to-unclog-a-drain/"} className="underline" rel="canonical">
                           Family Handyman - How to Unclog a Drain
                         </Link>
                       </li>

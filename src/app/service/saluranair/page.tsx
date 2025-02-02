@@ -37,12 +37,12 @@ export default function SaluranAir() {
         <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-8 sm:p-20 rounded-xl xl:mx-20`}>
           <div className="w-full flex flex-col items-start justify-center border rounded-full gap-4 p-3 mt-10">
             <div className="flex items-center justify-center gap-8">
-              <Link href={"/service"} className="bg-indigo-600 hover:bg-indigo-700 transition-all text-white rounded-full text-4xl lg:text-8xl p-2 lg:p-3 border-4 border-indigo-200">
+              <Link href={"/service"} className="bg-indigo-600 hover:bg-indigo-700 transition-all text-white rounded-full text-4xl lg:text-8xl p-2 lg:p-3 border-4 border-indigo-200" rel="canonical">
                 <ArrowLeft />
               </Link>
-              <h1 className="text-xl lg:text-3xl text-indigo-600 font-semibold">
+              <h2 className="text-xl lg:text-3xl text-indigo-600 font-semibold">
                 Pembersihan Saluran Air
-              </h1>
+              </h2>
             </div>
           </div>
           <p className="text-md md:text-lg text-center w-full md:w-2/3">

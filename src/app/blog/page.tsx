@@ -43,9 +43,9 @@ export default function Blog() {
       <main>
         <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-8 sm:p-20 rounded-xl xl:mx-20`}>
           <div className="w-full flex flex-col items-center justify-center gap-4">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl text-indigo-600 font-semibold mt-10">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl text-indigo-600 font-semibold mt-10">
               Artikel
-            </h1>
+            </h2>
             <p className="flex gap-2 w-full text-lg lg:text-xl text-left font-semibold text-amber-500 border-b-2 border-amber-500 p-2">
               <ThumbsUp />
               Artikel teratas
@@ -95,7 +95,7 @@ export default function Blog() {
               </h2>
 
               <div className="flex flex-col gap-6">
-                <Link href={"/blog/solusi-efektif-untuk-limbah-lemak-dan-minyak-dapur"} className="flex gap-2 lg:gap-6 p-2 hover:bg-slate-100 rounded-xl transition-all">
+                <Link href={"/blog/solusi-efektif-untuk-limbah-lemak-dan-minyak-dapur"} className="flex gap-2 lg:gap-6 p-2 hover:bg-slate-100 rounded-xl transition-all" rel="canonical">
                   <div className="flex flex-col gap-2 w-full md:w-8/12">
                     <h3 className="text-md md:text-xl lg:text-3xl font-semibold">
                       Solusi Efektif Untuk Limbah Lemak dan Minyak Dapur
@@ -116,7 +116,7 @@ export default function Blog() {
                   </div>
                 </Link>
 
-                <Link href={"/blog/pentingnya-servis-ac-berkala-untuk-kenyamanan-dan-efisiensi"} className="flex gap-2 lg:gap-6 p-2 hover:bg-slate-100 rounded-xl transition-all">
+                <Link href={"/blog/pentingnya-servis-ac-berkala-untuk-kenyamanan-dan-efisiensi"} className="flex gap-2 lg:gap-6 p-2 hover:bg-slate-100 rounded-xl transition-all" rel="canonical">
                   <div className="flex flex-col gap-2 w-full md:w-8/12">
                     <h3 className="text-md md:text-xl lg:text-3xl font-semibold">
                       Pentingnya Servis AC Berkala untuk Kenyamanan dan Efisiensi
@@ -137,7 +137,7 @@ export default function Blog() {
                   </div>
                 </Link>
 
-                <Link href={"/blog/mengatasi-saluran-mampet-dengan-mudah"} className="flex gap-2 lg:gap-6 p-2 hover:bg-slate-100 rounded-xl transition-all">
+                <Link href={"/blog/mengatasi-saluran-mampet-dengan-mudah"} className="flex gap-2 lg:gap-6 p-2 hover:bg-slate-100 rounded-xl transition-all" rel="canonical">
                   <div className="flex flex-col gap-2 w-full md:w-8/12">
                     <h3 className="text-md md:text-xl lg:text-3xl font-semibold">
                       Mengatasi Saluran Mampet dengan Mudah!

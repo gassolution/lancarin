@@ -11,9 +11,15 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 // Components
 import { Footerdemo } from "@/components/ui/footer-section";
 import ResponsiveNavbar from "./navbar";
+import { baseUrl } from "./sitemap";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.gas-solution.com"),
+  metadataBase: baseUrl ? new URL(baseUrl) : undefined,
+  applicationName: "Ecofix",
+  title: {
+    default: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
+    template: "%s | Ecofix"
+  },
   keywords: [
     "pt gama abyakta sejahtera",
     "gas solution",
@@ -53,16 +59,34 @@ export const metadata: Metadata = {
     "sedot wc terdekat",
     "sedot wc jakarta",
   ],
-  title: {
-    default: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
-    template: "%s | Ecofix"
+  verification: {
+    google: "ZuDkQGzkMvFi-AEuyYNFKgpZmi57sIkuzBL0Hbdxywc",
   },
+  icons: {
+    icon: `/favicon.ico`,
+  },
+  description:
+    "Solusi terbaik Anda dalam engineering services. Kami melayani plumbing service, grease trap, dan AC service.",
   openGraph: {
-    description:
-      "Kami adalah perusahaan engineering maintenance services yang menyediakan jasa perawatan gedung atau plumbing profesional di daerah Jakarta, Bogor, Depok, Tangerang dan Bekasi(Jabodetabek) yang dipercaya oleh hotel bintang lima, mall, perkantoran, dan klien retail di daerah anda."
-  }
+    title: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
+    url: baseUrl,
+    siteName: "Ecofix",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: `${baseUrl}/og`,
+        alt: "Ecofix",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
+    images: [`${baseUrl}/og`],
+  },
 };
-
 
 export default function RootLayout({
   children,

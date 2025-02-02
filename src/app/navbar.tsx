@@ -40,6 +40,7 @@ export default function ResponsiveNavbar() {
                     <Link
                         href="/"
                         className="flex items-center space-x-3 rtl:space-x-reverse p-0 sm:py-2 sm:px-3 md:bg-transparent md:p-0"
+                        rel="canonical"
                     >
                         <Image
                             src="/logogas.png"
@@ -56,35 +57,35 @@ export default function ResponsiveNavbar() {
                 <div className={`w-full hidden md:block md:w-auto`} id="navbar-default">
                     <div className="items-center flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                         <div className={`${outfit.className} font-medium flex flex-col md:flex-row md:gap-x-4 gap-y-3 items-center`}>
-                            <Link href="/">
+                            <Link href="/" rel="canonical">
                                 <p
                                     className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
                                 >
                                     Home
                                 </p>
                             </Link>
-                            <Link href="/service">
+                            <Link href="/service" rel="canonical">
                                 <p
                                     className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
                                 >
                                     Service
                                 </p>
                             </Link>
-                            <Link href="/about">
+                            <Link href="/about" rel="canonical">
                                 <p
                                     className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
                                 >
                                     About
                                 </p>
                             </Link>
-                            <Link href="/blog">
+                            <Link href="/blog" rel="canonical">
                                 <p
                                     className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
                                 >
                                     Blog
                                 </p>
                             </Link>
-                            <Link href="/information">
+                            <Link href="/information" rel="canonical">
                                 <p
                                     className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
                                 >
@@ -110,7 +111,7 @@ export default function ResponsiveNavbar() {
 
                 <NavbarContent justify="center">
                     <NavbarBrand>
-                        <Link href="/" className="flex items-center space-x-4">
+                        <Link href="/" className="flex items-center space-x-4" rel="canonical">
                             <Image
                                 src="/logogas.png"
                                 className="h-8 w-auto navbar-logo"
@@ -131,6 +132,7 @@ export default function ResponsiveNavbar() {
                                     : ""}`}
                                 href={item.path === "#" ? "#" : item.path} // Fix for Mode Toggle
                                 size="lg"
+                                rel="canonical"
 
                             >
                                 {item.label}

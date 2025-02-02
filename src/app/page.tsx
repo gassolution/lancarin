@@ -19,6 +19,7 @@ const outfit = Outfit({ subsets: ['latin'] })
 
 // Icons
 import { MoveRight, Phone, Waves, Wrench } from 'lucide-react';
+import { Metadata } from "next";
 import Head from "next/head";
 
 // Constructor
@@ -93,6 +94,57 @@ const gallery = [
   },
 ];
 
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.gas-solution.com"),
+  keywords: [
+    "pt gama abyakta sejahtera",
+    "gas solution",
+    "ecofix",
+    "lancarin",
+    "ecofix id",
+    "lancarin com",
+    "gama abyakta sejahtera",
+    "jasa saluran mampet",
+    "saluran mampet",
+    "jasa saluran mampet terdekat",
+    "jasa saluran mampet bekasi",
+    "alat pendorong saluran mampet",
+    "cara menggunakan soda api untuk saluran mampet",
+    "tukang saluran mampet",
+    "cara pakai soda api untuk saluran mampet",
+    "jasa saluran mampet jogja",
+    "jasa saluran mampet bandung",
+    "saluran mampet jogja",
+    "jasa saluran mampet jakarta",
+    "plumbing adalah",
+    "apa itu plumbing",
+    "pekerjaan plumbing",
+    "instalasi plumbing air bersih",
+    "sistem plumbing gedung bertingkat",
+    "plumbing air bersih",
+    "sistem plumbing adalah",
+    "mechanical electrical plumbing adalah",
+    "pekerjaan plumbing adalah",
+    "plumbness adalah",
+    "grease trap adalah",
+    "apa itu grease trap",
+    "cara membersihkan grease trap",
+    "cara kerja grease trap",
+    "biaya servis ac rumah",
+    "cara servis ac rumah",
+    "sedot wc terdekat",
+    "sedot wc jakarta",
+  ],
+  title: {
+    default: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
+    template: "%s | Ecofix"
+  },
+  openGraph: {
+    description:
+      "Kami adalah perusahaan engineering maintenance services yang menyediakan jasa perawatan gedung atau plumbing profesional di daerah Jakarta, Bogor, Depok, Tangerang dan Bekasi(Jabodetabek) yang dipercaya oleh hotel bintang lima, mall, perkantoran, dan klien retail di daerah anda."
+  }
+};
+
 export default function Home() {
 
   return (
@@ -125,7 +177,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex gap-4 items-center justify-center md:justify-start flex-col sm:flex-row mt-2 sm:mt-4 lg:mt-8">
-                <Link href="https://wa.me/+628111026445" className={`${outfit.className} gap-2 box-border relative z-30 inline-flex items-center justify-center w-auto px-2 py-2 lg:px-8 lg:py-3 overflow-hidden font-medium text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none`}>
+                <Link href="https://wa.me/+628111026445" className={`${outfit.className} gap-2 box-border relative z-30 inline-flex items-center justify-center w-auto px-2 py-2 lg:px-8 lg:py-3 overflow-hidden font-medium text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none`} rel="canonical">
                   <span className="absolute bottom-0 right-0 w-8 h-20 -mb-8 -mr-5 transition-all duration-300 ease-out transform rotate-45 translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
                   <span className="absolute top-0 left-0 w-20 h-8 -mt-1 -ml-12 transition-all duration-300 ease-out transform -rotate-45 -translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
                   <span className="relative z-20 flex items-center sm:text-md lg:text-lg">
@@ -133,7 +185,7 @@ export default function Home() {
                     Hubungi Kami
                   </span>
                 </Link>
-                <Link href="/service" className={`${outfit.className} gap-2 box-border relative z-30 inline-flex items-center justify-center w-auto px-2 py-2 lg:px-8 lg:py-3 overflow-hidden font-medium text-indigo-600 transition-all duration-300 bg-white rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-500 ring-offset-indigo-400 hover:ring-offset-indigo-500 ease focus:outline-none`}>
+                <Link href="/service" className={`${outfit.className} gap-2 box-border relative z-30 inline-flex items-center justify-center w-auto px-2 py-2 lg:px-8 lg:py-3 overflow-hidden font-medium text-indigo-600 transition-all duration-300 bg-white rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-500 ring-offset-indigo-400 hover:ring-offset-indigo-500 ease focus:outline-none`} rel="canonical">
                   <span className="absolute bottom-0 right-0 w-8 h-20 -mb-8 -mr-5 transition-all duration-300 ease-out transform rotate-45 translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
                   <span className="absolute top-0 left-0 w-20 h-8 -mt-1 -ml-12 transition-all duration-300 ease-out transform -rotate-45 -translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
                   <span className="relative z-20 flex items-center sm:text-md lg:text-lg">
@@ -191,7 +243,7 @@ export default function Home() {
                       as="button"
                       className="inline-flex items-center justify-center px-4 py-2 font-medium"
                     >
-                      <Link href="/service/saluranair" className="text-indigo-600 text-sm lg:text-lg">
+                      <Link href="/service/saluranair" className="text-indigo-600 text-sm lg:text-lg" rel="canonical">
                         Selengkapnya
                         <MoveRight className="ml-2" />
                       </Link>
@@ -236,7 +288,7 @@ export default function Home() {
                       as="button"
                       className="inline-flex items-center justify-center px-4 py-2 font-medium"
                     >
-                      <Link href="/service/greasetrap" className="text-amber-500 text-sm lg:text-lg">
+                      <Link href="/service/greasetrap" className="text-amber-500 text-sm lg:text-lg" rel="canonical">
                         Selengkapnya
                         <MoveRight className="ml-2" />
                       </Link>
@@ -281,7 +333,7 @@ export default function Home() {
                       as="button"
                       className="inline-flex items-center justify-center px-4 py-2 font-medium"
                     >
-                      <Link href="/service/ac" className="text-green-600 text-sm lg:text-lg">
+                      <Link href="/service/ac" className="text-green-600 text-sm lg:text-lg" rel="canonical">
                         Selengkapnya
                         <MoveRight className="ml-2" />
                       </Link>
@@ -640,7 +692,7 @@ export default function Home() {
                   Email: info@gas-solution.com
                 </div>
               </div>
-              <Link href="https://wa.me/+628111026445" className={`${outfit.className} gap-2 box-border relative z-30 inline-flex items-center justify-center w-full px-8 py-3 overflow-hidden font-medium text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none`}>
+              <Link href="https://wa.me/+628111026445" className={`${outfit.className} gap-2 box-border relative z-30 inline-flex items-center justify-center w-full px-8 py-3 overflow-hidden font-medium text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none`} rel="canonical">
                 <span className="absolute bottom-0 right-0 w-8 h-20 -mb-8 -mr-5 transition-all duration-300 ease-out transform rotate-45 translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
                 <span className="absolute top-0 left-0 w-20 h-8 -mt-1 -ml-12 transition-all duration-300 ease-out transform -rotate-45 -translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
                 <span className="relative z-20 flex items-center text-2xl">

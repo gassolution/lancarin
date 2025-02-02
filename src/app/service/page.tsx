@@ -41,15 +41,15 @@ export default function Service() {
       <main>
         <div className={`${outfit.className} overflow-x-hidden flex flex-col items-center justify-center p-8 pb-20 gap-16 sm:p-20 rounded-xl xl:mx-20`}>
           <div className="flex flex-col items-center justify-center gap-4">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl text-indigo-600 font-semibold mt-10">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl text-indigo-600 font-semibold mt-10">
               Layanan Kami
-            </h1>
+            </h2>
             <p className="text-md sm:text-lg md:text-xl w-full sm:w-2/3 text-center">
               PT GAS menyediakan layanan engineering terbaik. Berikut ini adalah layanan-layanan yang kami tawarkan.
             </p>
           </div>
           <div className="relative grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8 items-center">
-            <Link href={"/service/saluranair"}>
+            <Link href={"/service/saluranair"} rel="canonical">
               <div className="max-w-xs w-full group/card">
                 <div
                   className={cn(
@@ -68,9 +68,9 @@ export default function Service() {
                     />
                   </div>
                   <div className="text content">
-                    <h1 className="font-bold text-xl md:text-lg lg:text-2xl text-gray-50 relative z-10">
+                    <h2 className="font-bold text-xl md:text-lg lg:text-2xl text-gray-50 relative z-10">
                       Pembersihan Saluran Mampet
-                    </h1>
+                    </h2>
                     <p className="font-normal text-sm md:text-xs lg:text-sm text-gray-50 relative z-10 my-4">
                       Memastikan saluran pembuangan anda tetap bersih dan bebas sumbatan.
                     </p>
@@ -78,7 +78,7 @@ export default function Service() {
                 </div>
               </div>
             </Link>
-            <Link href={"/service/greasetrap"}>
+            <Link href={"/service/greasetrap"} rel="canonical">
               <div className="max-w-xs w-full group/card">
                 <div
                   className={cn(
@@ -97,9 +97,9 @@ export default function Service() {
                     />
                   </div>
                   <div className="text content">
-                    <h1 className="font-bold text-xl md:text-lg lg:text-2xl text-gray-50 relative z-10">
+                    <h2 className="font-bold text-xl md:text-lg lg:text-2xl text-gray-50 relative z-10">
                       Perawatan Grease Trap
-                    </h1>
+                    </h2>
                     <p className="font-normal text-sm md:text-xs lg:text-sm text-gray-50 relative z-10 my-4">
                       Ecofix menawarkan layanan perawatan grease trap profesional untuk memastikan sistem limbah dapur Anda tetap bersih dan berfungsi optimal.
                     </p>
@@ -107,7 +107,7 @@ export default function Service() {
                 </div>
               </div>
             </Link>
-            <Link href={"/service/ac"}>
+            <Link href={"/service/ac"} rel="canonical">
               <div className="max-w-xs w-full group/card">
                 <div
                   className={cn(
@@ -126,9 +126,9 @@ export default function Service() {
                     />
                   </div>
                   <div className="text content">
-                    <h1 className="font-bold text-xl md:text-lg lg:text-2xl text-gray-50 relative z-10">
+                    <h2 className="font-bold text-xl md:text-lg lg:text-2xl text-gray-50 relative z-10">
                       AC Maintenance
-                    </h1>
+                    </h2>
                     <p className="font-normal text-sm md:text-xs lg:text-sm text-gray-50 relative z-10 my-4">
                       Ecofix menyediakan layanan perawatan AC residential profesional untuk memastikan kenyamanan maksimal.
                     </p>

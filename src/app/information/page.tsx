@@ -49,9 +49,9 @@ export default function Information() {
               </TabsList>
               <TabsContent value="career">
                 <div className="py-10 flex flex-col gap-4">
-                  <h1 className="text-center text-xl sm:text-2xl lg:text-3xl font-bold">
+                  <h2 className="text-center text-xl sm:text-2xl lg:text-3xl font-bold">
                     Career - Full Time
-                  </h1>
+                  </h2>
 
                   <p className="text-md lg:text-lg text-justify">
                     Seiring dengan perkembangan bisnis dan perusahaan kami, tentunya kami membutuhkan para individu yang siap untuk memberikan yang terbaik sesuai dengan visi perusahaan untuk bergabung bersama tim Kami!
@@ -223,9 +223,9 @@ export default function Information() {
                 </div>
 
                 <div className="py-10 flex flex-col gap-4">
-                  <h1 className="text-center text-xl sm:text-2xl lg:text-3xl font-bold">
+                  <h2 className="text-center text-xl sm:text-2xl lg:text-3xl font-bold">
                     Career - Internship (Magang)
-                  </h1>
+                  </h2>
 
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div className="flex flex-col justify-start items-center text-lg p-4 xl:p-8 bg-sky-100 rounded-xl border-2 border-sky-600 gap-4">
@@ -343,7 +343,7 @@ export default function Information() {
               </TabsContent>
               <TabsContent value="competition">
                 <div className="py-10 flex flex-col gap-4">
-                  <Link href={"#"} aria-label="Content Competition" className="flex flex-col sm:flex-row gap-6 p-6 border hover:bg-slate-100 rounded-xl transition-all">
+                  <Link href={"#"} aria-label="Content Competition" className="flex flex-col sm:flex-row gap-6 p-6 border hover:bg-slate-100 rounded-xl transition-all" rel="canonical">
                     <div className="flex flex-col gap-2 sm:w-8/12 justify-between items-center sm:items-start">
                       <div className="flex flex-col gap-2 lg:gap-4">
                         <h3 className="text-xl lg:text-3xl font-semibold">

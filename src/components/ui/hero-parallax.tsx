@@ -108,9 +108,9 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className={`${outfit.className} max-w-7xl relative p-8 sm:py-20 md:py-40 px-4 w-full left-0 top-0`}>
-      <h1 className="text-2xl sm:text-4xl lg:text-7xl font-bold dark:text-white">
+      <h2 className="text-2xl sm:text-4xl lg:text-7xl font-bold dark:text-white">
         Tentang kami, solusi terbaik Anda <br /> dalam engineering service
-      </h1>
+      </h2>
       <p className="max-w-3xl text-md sm:text-xl lg:text-2xl mt-8 dark:text-neutral-200">
         Kami adalah perusahaan engineering maintenance services yang menyediakan jasa perawatan gedung atau plumbing profesional di daerah Jakarta, Bogor, Depok, Tangerang dan Bekasi(Jabodetabek) yang dipercaya oleh hotel bintang lima, mall, perkantoran, dan klien retail di daerah anda.
       </p>
@@ -146,7 +146,8 @@ export const ProductCard = ({
     >
       <Link
         href={product.link}
-        className="block group-hover/product:shadow-2xl "
+        className="block group-hover/product:shadow-2xl"
+        rel="canonical"
       >
         <Image
           src={product.thumbnail}
