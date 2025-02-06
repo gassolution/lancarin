@@ -89,7 +89,7 @@ export default function Article2() {
                         <span className="bg-green-600 px-2 rounded-md text-white mr-2">
                           Biar Nggak Kena Denda!
                         </span>
-                        Di beberapa tempat, ada aturan ketat soal pengelolaan limbah minyak. Pakai grease trap itu kayak punya "kartu bebas masalah," jadi kamu nggak perlu takut kena sanksi.
+                        Di beberapa tempat, ada aturan ketat soal pengelolaan limbah minyak. Pakai grease trap itu kayak punya &quot;kartu bebas masalah,&quot; jadi kamu nggak perlu takut kena sanksi.
                       </li>
                     </ul>
                   </div>

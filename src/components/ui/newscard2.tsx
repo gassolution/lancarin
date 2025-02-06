@@ -2,10 +2,9 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 // Font
-import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
+import { Tilt_Warp } from 'next/font/google';
 
-const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
-const tiltneon = Tilt_Neon({ subsets: ['latin'] })
+const tiltwarp = Tilt_Warp({ subsets: ['latin'] });
 
 interface Card08Props {
     title?: string

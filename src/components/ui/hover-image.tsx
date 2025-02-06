@@ -1,9 +1,8 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
+import { Tilt_Neon } from 'next/font/google';
 import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
 
-const tiltwarp = Tilt_Warp({ subsets: ['latin'] });
 const tiltneon = Tilt_Neon({ subsets: ['latin'] });
 
 interface LinkProps {
