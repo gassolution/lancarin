@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     "sedot wc jakarta",
   ],
   verification: {
-    google: "ZuDkQGzkMvFi-AEuyYNFKgpZmi57sIkuzBL0Hbdxywc",
+    google: "krLyxuxN1Ft1_4aGNFsrz",
   },
   icons: {
     icon: `/favicon.ico`,
