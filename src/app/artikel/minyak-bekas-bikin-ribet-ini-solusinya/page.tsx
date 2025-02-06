@@ -63,7 +63,7 @@ export default function Article2() {
                     Grease Trap? Apaan, Tuh?
                   </h2>
                   <p className="text-md md:text-lg text-justify">
-                    Jadi gini, grease trap itu kayak penjaga gerbang di dapur kamu. Begitu air limbah ngalir masuk, alat ini bakal melambatkan alirannya biar minyak dan lemak bisa naik ke permukaan, sementara sisa makanan dan partikel padat bakal tenggelam ke dasar. Air yang udah "disaring" ini akhirnya bisa keluar ke saluran pembuangan tanpa drama pipa mampet. Gampang, kan? 🚰💨
+                    Jadi gini, grease trap itu kayak penjaga gerbang di dapur kamu. Begitu air limbah ngalir masuk, alat ini bakal melambatkan alirannya biar minyak dan lemak bisa naik ke permukaan, sementara sisa makanan dan partikel padat bakal tenggelam ke dasar. Air yang udah &quot;disaring&quot; ini akhirnya bisa keluar ke saluran pembuangan tanpa drama pipa mampet. Gampang, kan? 🚰💨
                   </p>
                 </div>
 
