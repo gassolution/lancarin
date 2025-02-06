@@ -15,17 +15,17 @@ import { baseUrl } from "./sitemap";
 
 export const metadata: Metadata = {
   metadataBase: baseUrl ? new URL(baseUrl) : undefined,
-  applicationName: "Ecofix",
+  applicationName: "Lancarin",
   title: {
-    default: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
-    template: "%s | Ecofix"
+    default: "Plumbing Service, Grease Trap, dan AC Service | Lancarin",
+    template: "%s | Lancarin"
   },
   keywords: [
     "pt gama abyakta sejahtera",
     "gas solution",
-    "ecofix",
+    "Lancarin",
     "lancarin",
-    "ecofix id",
+    "Lancarin id",
     "lancarin com",
     "gama abyakta sejahtera",
     "jasa saluran mampet",
@@ -68,22 +68,22 @@ export const metadata: Metadata = {
   description:
     "Solusi terbaik Anda dalam engineering services. Kami melayani plumbing service, grease trap, dan AC service.",
   openGraph: {
-    title: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
+    title: "Plumbing Service, Grease Trap, dan AC Service | Lancarin",
     url: baseUrl,
-    siteName: "Ecofix",
+    siteName: "Lancarin",
     locale: "en_US",
     type: "website",
     images: [
       {
         url: `${baseUrl}/og`,
-        alt: "Ecofix",
+        alt: "Lancarin",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Plumbing Service, Grease Trap, dan AC Service | Ecofix",
+    title: "Plumbing Service, Grease Trap, dan AC Service | Lancarin",
     images: [`${baseUrl}/og`],
   },
 };

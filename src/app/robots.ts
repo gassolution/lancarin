@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
                 allow: ["/"],
             },
         ],
-        sitemap: "https://ecofix.id/sitemap.xml",
+        sitemap: "https://lancarin.com/sitemap.xml",
     };
 }

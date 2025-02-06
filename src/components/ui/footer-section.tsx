@@ -8,34 +8,31 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter, Wind } from "lucide-react";
 
 // Libs
-import Image from 'next/image';
 
 // Font
 import { Outfit } from 'next/font/google';
 import Link from "next/link";
 
+
+import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
+const tiltwarp = Tilt_Warp({ subsets: ['latin'] });
+const tiltneon = Tilt_Neon({ subsets: ['latin'] });
 const outfit = Outfit({ subsets: ['latin'] })
 
 function Footerdemo() {
 
   return (
-    <footer className={`${outfit.className} px-10 sm:px-20 relative border-t bg-background text-foreground transition-colors duration-300`}>
+    <footer className={`${tiltneon.className} px-10 sm:px-20 relative border-t bg-background text-foreground transition-colors duration-300`}>
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="relative">
-            <h2 className="mb-4 text-3xl font-light tracking-tight flex items-center justify-start gap-2 text-blue-800">
-              <Image
-                src="/logogas.png"
-                width={1000}
-                height={1000}
-                alt="AC Maintenance Picture"
-                className="w-10 sm:w-20 lg:w-14 h-auto"
-              />
-              <div className="logo flex lg:flex-col xl:flex-row items-start justify-center">
-                ecofix
+            <h2 className="mb-4 text-3xl tracking-tight flex items-center justify-start gap-2 text-green-500">
+              <Wind size={50} />
+              <div className={`${tiltwarp.className} logo text-2xl`}>
+                Lancarin.com
               </div>
             </h2>
             <p className="mb-6 text-muted-foreground">
@@ -45,7 +42,7 @@ function Footerdemo() {
             <div className="absolute -right-4 top-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Quick Links</h3>
+            <h3 className="mb-4 text-lg font-bold">Quick Links</h3>
             <nav className="space-y-2 text-sm">
               <Link href="/" className="block transition-colors hover:text-primary">
                 Home
@@ -56,7 +53,7 @@ function Footerdemo() {
               <Link href="/about" className="block transition-colors hover:text-primary">
                 About Us
               </Link>
-              <Link href="/blog" className="block transition-colors hover:text-primary">
+              <Link href="/artikel" className="block transition-colors hover:text-primary">
                 Blog
               </Link>
               <Link href="/information" className="block transition-colors hover:text-primary">
@@ -65,14 +62,14 @@ function Footerdemo() {
             </nav>
           </div>
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Contact Us</h3>
+            <h3 className="mb-4 text-lg font-bold">Contact Us</h3>
             <address className="space-y-2 text-sm not-italic">
               <p>Phone: +62 81-1102-6445</p>
               <p>Email: info@gas-solution.com</p>
             </address>
           </div>
           <div className="relative">
-            <h3 className="mb-4 text-lg font-semibold">Follow Us</h3>
+            <h3 className="mb-4 text-lg font-bold">Follow Us</h3>
             <div className="mb-6 flex space-x-4">
               <TooltipProvider>
                 <Tooltip>

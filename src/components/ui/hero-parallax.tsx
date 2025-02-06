@@ -107,7 +107,7 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className={`${outfit.className} max-w-7xl relative p-8 sm:py-20 md:py-40 px-4 w-full left-0 top-0`}>
+    <div className={`${tiltwarp.className} max-w-7xl relative p-8 sm:py-20 md:py-40 px-4 w-full left-0 top-0`}>
       <h2 className="text-2xl sm:text-4xl lg:text-7xl font-bold dark:text-white">
         Tentang kami, solusi terbaik Anda <br /> dalam engineering service
       </h2>
@@ -158,7 +158,7 @@ export const ProductCard = ({
         />
       </Link>
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
-      <h2 className={`${outfit.className} absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white`}>
+      <h2 className={`${tiltwarp.className} absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white`}>
         {product.title}
       </h2>
     </motion.div>

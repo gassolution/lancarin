@@ -1,6 +1,12 @@
-import { cn } from "@/lib/utils"
-import { ArrowUpRight } from "lucide-react"
-import Image from "next/image"
+import { cn } from "@/lib/utils";
+import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
+
+// Font
+import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
+
+const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
+const tiltneon = Tilt_Neon({ subsets: ['latin'] })
 
 interface Card08Props {
     title?: string
@@ -67,7 +73,7 @@ export default function Card08({
                 <div className="absolute bottom-0 left-0 right-0 p-5">
                     <div className="flex items-end lg:items-center justify-between gap-3">
                         <div className="space-y-1.5">
-                            <h3 className="text-sm lg:text-lg font-semibold text-white dark:text-zinc-100 leading-snug line-clamp-2 lg:line-clamp-0">{title}</h3>
+                            <h3 className={`${tiltwarp.className} text-sm lg:text-lg text-white dark:text-zinc-100 leading-snug line-clamp-2 lg:line-clamp-0`}>{title}</h3>
                             <p className="text-xs lg:text-sm text-zinc-200 dark:text-zinc-300 line-clamp-2">{subtitle}</p>
                         </div>
                         <div

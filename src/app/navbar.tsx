@@ -12,10 +12,11 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 // Font
-import { Outfit } from 'next/font/google';
-import Image from "next/image";
+import { Phone, Wind } from "lucide-react";
+import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
 
-const outfit = Outfit({ subsets: ['latin'] });
+const tiltwarp = Tilt_Warp({ subsets: ['latin'] });
+const tiltneon = Tilt_Neon({ subsets: ['latin'] });
 
 export default function ResponsiveNavbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,76 +24,65 @@ export default function ResponsiveNavbar() {
 
     // Define menu items and their corresponding paths
     const menuItems = [
-        { label: "Home", path: "/" },
-        { label: "Service", path: "/service" },
-        { label: "About", path: "/about" },
-        { label: "Blog", path: "/blog" },
-        { label: "Information", path: "/information" },
+        { label: "Beranda", path: "/" },
+        { label: "Layanan", path: "/layanan" },
+        { label: "Tentang", path: "/tentang" },
+        { label: "Artikel", path: "/artikel" },
     ];
 
     return (
         <div
-            className="fixed top-0 z-50 px-8 md:px-20 w-full bg-white max-w-screen-2xl"
+            className="fixed top-0 z-50 px-8 md:px-20 w-full bg-white backdrop-blur-sm max-w-screen-2xl"
         >
             {/* Navbar for large screens */}
             <nav className="items-center justify-between py-4 hidden lg:flex xl:px-20">
                 <div className="left-nav flex items-center space-x-4">
                     <Link
                         href="/"
-                        className="flex items-center space-x-3 rtl:space-x-reverse p-0 sm:py-2 sm:px-3 md:bg-transparent md:p-0"
+                        className="flex items-center space-x-3 rtl:space-x-reverse p-0 sm:py-2 sm:px-3 md:bg-transparent md:p-0 text-[#00C950]"
                         rel="canonical"
                         aria-label="Brand Logo"
                     >
-                        <Image
+                        {/* <Image
                             src="/logogas.png"
                             className="h-16 w-auto navbar-logo"
-                            alt="Logo Ecofix"
+                            alt="Logo Lancarin"
                             width={1000}
                             height={1000}
-                        />
-                        <div className="text-blue-800 logo text-4xl">
-                            ecofix
+                        /> */}
+                        <Wind size={50} />
+                        <div className={`${tiltwarp.className} logo text-2xl`}>
+                            Lancarin.com
                         </div>
                     </Link>
                 </div>
                 <div className={`w-full hidden md:block md:w-auto`} id="navbar-default">
-                    <div className="items-center flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
-                        <div className={`${outfit.className} font-medium flex flex-col md:flex-row md:gap-x-4 gap-y-3 items-center`}>
-                            <Link href="/" rel="canonical" aria-label="Home">
-                                <p
-                                    className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
-                                >
-                                    Home
+                    <div className="items-center justify-center flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                        <div className={`${tiltneon.className} font-medium flex flex-col md:flex-row md:gap-x-12 gap-y-3 items-center justify-center`}>
+                            <Link href="/layanan" rel="canonical" aria-label="Layanan">
+                                <p className="text-lg group relative w-max cursor-pointer transition-all text-[#00C950] rounded-xl  border-transparent border-4 py-2">
+                                    <span>Layanan</span>
+                                    <span className="absolute -bottom-1 left-0 w-0 transition-all h-1 bg-[#00C950] group-hover:w-full"></span>
                                 </p>
                             </Link>
-                            <Link href="/service" rel="canonical" aria-label="Service">
-                                <p
-                                    className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
-                                >
-                                    Service
+                            <Link href="/tentang" rel="canonical" aria-label="Tentang">
+                                <p className="text-lg group relative w-max cursor-pointer transition-all text-[#00C950] rounded-xl  border-transparent border-4 py-2">
+                                    <span>Tentang</span>
+                                    <span className="absolute -bottom-1 left-0 w-0 transition-all h-1 bg-[#00C950] group-hover:w-full"></span>
                                 </p>
                             </Link>
-                            <Link href="/about" rel="canonical" aria-label="About">
-                                <p
-                                    className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
-                                >
-                                    About
+                            <Link href="/artikel" rel="canonical" aria-label="Artikel">
+                                <p className="text-lg group relative w-max cursor-pointer transition-all text-[#00C950] rounded-xl  border-transparent border-4 py-2">
+                                    <span>Artikel</span>
+                                    <span className="absolute -bottom-1 left-0 w-0 transition-all h-1 bg-[#00C950] group-hover:w-full"></span>
                                 </p>
                             </Link>
-                            <Link href="/blog" rel="canonical" aria-label="Blog">
-                                <p
-                                    className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
-                                >
-                                    Blog
-                                </p>
-                            </Link>
-                            <Link href="/information" rel="canonical" aria-label="Information">
-                                <p
-                                    className="cursor-pointer transition-all text-indigo-700 text-lg rounded-xl hover:text-white hover:bg-indigo-700 hover:border-indigo-200 border-transparent border-4 px-4 py-3"
-                                >
-                                    Information
-                                </p>
-                            </Link>
+                            <div className="group flex gap-4 items-center justify-center md:justify-start flex-col sm:flex-row">
+                                <Link href="https://wa.me/+628111026445" className={`${tiltneon.className} text-md gap-2 box-border relative z-30 inline-flex items-center justify-center w-auto px-1 py-2 lg:px-8 lg:py-3 overflow-hidden font-medium text-white transition-all duration-300 bg-gradient-to-b from-[#00C950] to-[#0CB514] rounded-full cursor-pointer group ring-offset-2 ring-2 ring-[#00CF0A]/50 ring-offset-[#FFFFFF]/50 hover:ring-offset-[#00CF0A]/50 ease focus:outline-none`} rel="canonical">
+                                    Hubungi Kami
+                                    <Phone className="group-hover:translate-x-3 transition-all" />
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -112,14 +102,15 @@ export default function ResponsiveNavbar() {
 
                 <NavbarContent justify="center">
                     <NavbarBrand>
-                        <Link href="/" className="flex items-center space-x-4" rel="canonical" aria-label="Brand Logo">
-                            <Image
-                                src="/logogas.png"
+                        <Link href="/" className="flex items-center space-x-4 text-green-500" rel="canonical" aria-label="Brand Logo">
+                            {/* <Image
+                                src="/.png"
                                 className="h-8 w-auto navbar-logo"
                                 alt="Logo PT GAS"
                                 width={1000}
                                 height={1000}
-                            />
+                            /> */}
+                            <Wind size={50} />
                         </Link>
                     </NavbarBrand>
                 </NavbarContent>
@@ -128,8 +119,8 @@ export default function ResponsiveNavbar() {
                     {menuItems.map((item, index) => (
                         <NavbarMenuItem key={`${item.label}-${index}`}>
                             <Link
-                                className={`${outfit.className} w-full ${currentPath === item.path
-                                    ? "font-semibold" // Apply active class if the link is active
+                                className={`${tiltneon.className} w-full ${currentPath === item.path
+                                    ? "font-semibold bg-white border-2 border-green-500 text-green-500 px-4 py-3 rounded-full" // Apply active class if the link is active
                                     : ""}`}
                                 href={item.path === "#" ? "#" : item.path} // Fix for Mode Toggle
                                 size="lg"

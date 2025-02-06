@@ -18,7 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date().toISOString(),
         },
         {
-            url: `${baseUrl}/blog`,
+            url: `${baseUrl}/artikel`,
             lastModified: new Date().toISOString(),
         },
         {
@@ -26,15 +26,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date().toISOString(),
         },
         {
-            url: `${baseUrl}/blog/pentingnya-servis-ac-berkala-untuk-kenyamanan-dan-efisiensi`,
+            url: `${baseUrl}/artikel/pentingnya-servis-ac-berkala-untuk-kenyamanan-dan-efisiensi`,
             lastModified: new Date().toISOString(),
         },
         {
-            url: `${baseUrl}/blog/mengatasi-saluran-mampet-dengan-mudah`,
+            url: `${baseUrl}/artikel/saluran-lancar-hidu-tenang-tips-ampuh-atasi-pipa-mampet`,
             lastModified: new Date().toISOString(),
         },
         {
-            url: `${baseUrl}/blog/solusi-efektif-untuk-limbah-lemak-dan-minyak-dapur`,
+            url: `${baseUrl}/artikel/minyak-bekas-bikin-ribet-ini-solusinya`,
             lastModified: new Date().toISOString(),
         },
     ];

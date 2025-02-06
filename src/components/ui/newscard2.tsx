@@ -1,5 +1,11 @@
-import { cn } from "@/lib/utils"
-import Image from "next/image"
+import { cn } from "@/lib/utils";
+import Image from "next/image";
+
+// Font
+import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
+
+const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
+const tiltneon = Tilt_Neon({ subsets: ['latin'] })
 
 interface Card08Props {
     title?: string
@@ -47,7 +53,7 @@ export default function NewsCard2({
                 <div className="absolute bottom-0 left-0 right-0 p-5">
                     <div className="flex items-center justify-between gap-3">
                         <div className="space-y-1.5">
-                            <h3 className="text-2xl md:text-4xl font-semibold text-white dark:text-zinc-100 leading-snug">{title}</h3>
+                            <h3 className={`${tiltwarp.className} text-2xl md:text-4xl text-white dark:text-zinc-100 leading-snug`}>{title}</h3>
                         </div>
                     </div>
                 </div>
