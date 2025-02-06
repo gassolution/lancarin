@@ -13,8 +13,8 @@ import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
 // Font
 import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
 
-const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
-const tiltneon = Tilt_Neon({ subsets: ['latin'] })
+const tiltwarp = Tilt_Warp({ subsets: ['latin'] });
+const tiltneon = Tilt_Neon({ subsets: ['latin'] });
 
 // Icons
 import SquishyCard from "@/components/ui/squishy-card";

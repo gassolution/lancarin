@@ -13,14 +13,10 @@ import { Facebook, Instagram, Linkedin, Twitter, Wind } from "lucide-react";
 // Libs
 
 // Font
-import { Outfit } from 'next/font/google';
-import Link from "next/link";
-
-
 import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
+import Link from "next/link";
 const tiltwarp = Tilt_Warp({ subsets: ['latin'] });
 const tiltneon = Tilt_Neon({ subsets: ['latin'] });
-const outfit = Outfit({ subsets: ['latin'] })
 
 function Footerdemo() {
 

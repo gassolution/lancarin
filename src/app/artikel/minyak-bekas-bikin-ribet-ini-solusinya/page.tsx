@@ -12,16 +12,11 @@ import { useEffect } from "react";
 import Card08 from "@/components/ui/card08";
 import NewsCard2 from "@/components/ui/newscard2";
 import { ArrowLeft } from "lucide-react";
-import { Outfit } from 'next/font/google';
 import Head from "next/head";
 import Link from "next/link";
 
-const outfit = Outfit({ subsets: ['latin'] })
-
 // Font
-import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
-
-const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
+import { Tilt_Neon } from 'next/font/google';
 const tiltneon = Tilt_Neon({ subsets: ['latin'] })
 
 export default function Article2() {

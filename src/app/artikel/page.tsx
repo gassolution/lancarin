@@ -12,7 +12,6 @@ import { useEffect } from "react";
 import Card08 from "@/components/ui/card08";
 import NewsCard from "@/components/ui/newscard";
 import { Newspaper, ThumbsUp } from "lucide-react";
-import { Outfit } from 'next/font/google';
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,8 +21,6 @@ import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
 
 const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
 const tiltneon = Tilt_Neon({ subsets: ['latin'] })
-
-const outfit = Outfit({ subsets: ['latin'] })
 
 // Icons
 

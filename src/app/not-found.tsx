@@ -1,12 +1,8 @@
-import { Outfit } from "next/font/google";
-
-const outfit = Outfit({ subsets: ['latin'] })
 
 // Font
-import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
+import { Tilt_Warp } from 'next/font/google';
 
 const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
-const tiltneon = Tilt_Neon({ subsets: ['latin'] })
 
 export default function NotFound() {
     return (

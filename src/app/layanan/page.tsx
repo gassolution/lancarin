@@ -10,10 +10,7 @@ import { useEffect } from "react";
 
 // Font
 import { HoverImageLinks } from "@/components/ui/hover-image";
-import { Outfit } from 'next/font/google';
 import Head from "next/head";
-
-const outfit = Outfit({ subsets: ['latin'] })
 
 // Font
 import { Tilt_Neon, Tilt_Warp } from 'next/font/google';

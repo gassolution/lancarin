@@ -11,8 +11,9 @@ import Link from "next/link";
 import React from "react";
 
 // Font
-import { Outfit } from 'next/font/google';
-const outfit = Outfit({ subsets: ['latin'] })
+import { Tilt_Warp } from 'next/font/google';
+
+const tiltwarp = Tilt_Warp({ subsets: ['latin'] });
 
 export const HeroParallax = ({
   products,

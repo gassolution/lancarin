@@ -12,17 +12,13 @@ import { useEffect } from "react";
 import Card08 from "@/components/ui/card08";
 import NewsCard2 from "@/components/ui/newscard2";
 import { ArrowLeft } from "lucide-react";
-import { Outfit } from 'next/font/google';
 import Head from "next/head";
 import Link from "next/link";
 
-const outfit = Outfit({ subsets: ['latin'] })
-
 // Font
-import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
-
-const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
+import { Tilt_Neon } from 'next/font/google';
 const tiltneon = Tilt_Neon({ subsets: ['latin'] })
+
 export default function Article3() {
 
   useEffect(() => {
@@ -67,7 +63,7 @@ export default function Article3() {
                     Penyebab Saluran Mampet
                   </h2>
                   <p className="text-md md:text-lg text-justify">
-                    Pernah ngalamin air di wastafel nggak mau ngalir atau malah bikin genangan horor di kamar mandi? Bisa jadi, ada "tamu tak diundang" yang bikin saluran mampet! Nih, beberapa penyebabnya:
+                    Pernah ngalamin air di wastafel nggak mau ngalir atau malah bikin genangan horor di kamar mandi? Bisa jadi, ada &quot;tamu tak diundang&quot; yang bikin saluran mampet! Nih, beberapa penyebabnya:
                   </p>
                   <div className="text-md md:text-lg text-justify">
                     <ul className="text-justify">
@@ -204,7 +200,7 @@ export default function Article3() {
                 subtitle="Nggak perlu pakai alat canggih! Beberapa bahan di rumah bisa bantu atasi saluran tersumbat dengan cepat."
                 image="/images/saluranair.jpg"
                 badge={{ text: "Rekomendasi", variant: "pink" }}
-                href="/artikel/saluran-lancar-hidu-tenang-tips-ampuh-atasi-pipa-mampet">
+                href="/artikel/saluran-lancar-hidup-tenang-tips-ampuh-atasi-pipa-mampet">
               </Card08>
             </div>
 

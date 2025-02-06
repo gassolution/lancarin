@@ -5,10 +5,7 @@
 // UI Libs
 
 // Font
-import { Outfit } from 'next/font/google';
 import Image from 'next/image';
-
-const outfit = Outfit({ subsets: ['latin'] })
 
 // Font
 import SwipeCards from '@/components/ui/hover-dev-slider';
@@ -16,8 +13,8 @@ import { Mail, Phone } from 'lucide-react';
 import { Tilt_Neon, Tilt_Warp } from 'next/font/google';
 import Link from 'next/link';
 
-const tiltwarp = Tilt_Warp({ subsets: ['latin'] })
-const tiltneon = Tilt_Neon({ subsets: ['latin'] })
+const tiltwarp = Tilt_Warp({ subsets: ['latin'] });
+const tiltneon = Tilt_Neon({ subsets: ['latin'] });
 
 // Icons
 
