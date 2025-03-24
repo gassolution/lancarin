@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   applicationName: "Lancarin",
   title: {
     default: "Plumbing Service, Grease Trap, dan AC Service | Lancarin",
-    template: "%s | Lancarin"
+    template: "%s | Lancarin",
   },
   keywords: [
     "pt gama abyakta sejahtera",
