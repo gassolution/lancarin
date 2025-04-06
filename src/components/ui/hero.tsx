@@ -105,9 +105,7 @@ export default function HeroWithTestimonials() {
   // Keep only these state variables
   const [isPaused, setIsPaused] = useState(false);
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [touchStart, setTouchStart] = useState(0);
-  const [touchEnd, setTouchEnd] = useState(0);
+  const [, setCurrentIndex] = useState(0);
   const isMobile = useMobile();
 
   useEffect(() => {
@@ -118,38 +116,7 @@ export default function HeroWithTestimonials() {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [isMobile]);
-
-  const handlePrevious = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + testimonials.length) % testimonials.length
-    );
-  };
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-  };
-
-  //swipe handlers
-  const handleTouchStart = (e: React.TouchEvent) => {
-    setTouchStart(e.targetTouches[0].clientX);
-  };
-
-  const handleTouchMove = (e: React.TouchEvent) => {
-    setTouchEnd(e.targetTouches[0].clientX);
-  };
-
-  const handleTouchEnd = () => {
-    if (touchStart - touchEnd > 50) {
-      //swipe left
-      handleNext();
-    }
-
-    if (touchStart - touchEnd < -50) {
-      //swipe right
-      handlePrevious();
-    }
-  };
+  }, [isMobile, testimonials.length]);
 
   return (
     <>

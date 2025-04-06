@@ -184,7 +184,7 @@ function ReviewCard({ review }: ReviewCardProps) {
     <div className="bg-white rounded-lg p-4 border-2 border-green-400 shadow-sm">
       <div className="flex items-start gap-3 mb-3">
         <div className="flex-shrink-0">
-          <img
+          <Image
             src={review.avatar}
             alt={`${review.name}'s profile`}
             className="w-10 h-10 rounded-full object-cover"

@@ -30,46 +30,6 @@ export default function Home() {
     <>
       <main>
         <div className="overflow-x-hidden flex flex-col items-center justify-center gap-12">
-          {/* <div className="relative flex flex-col md:flex-row gap-8 items-center sm:py-6 lg:py-10 mt-10 bg-gradient-to-r from-[#00C950] to-[#007D1F]">
-            <div className="flex flex-col sm:flex-row gap-y-6 justify-center items-center lg:px-20 lg:py-20 p-16 px-10 sm:px-20 lg:p-40 rounded-xl xl:mx-40">
-              <div className="flex flex-col gap-4 md:w-8/12 mt-10 md:mt-0">
-                <div
-                  className={`${tiltwarp.className} relative text-2xl md:text-3xl xl:text-6xl title-head max-w-7xl mx-auto text-center md:text-left z-10 text-white`}
-                >
-                  Service AC & Drain Cleaning – Rumah Nyaman, Bersih, & Bebas
-                  Masalah!
-                </div>
-                <div className="flex flex-wrap items-start justify-start">
-                  <p
-                    className={`${tiltneon.className} flex items-center justify-center body-light tracking-normal cursor-pointer sm:text-md lg:text-xl text-white max-w-lg text-center md:text-left`}
-                  >
-                    Dari bikin udara sejuk sampai membersihkan pipa mampet, kami
-                    pastikan rumah kamu tetap adem dan bebas genangan!
-                  </p>
-                </div>
-                <div className="group flex gap-4 items-center justify-center md:justify-start flex-col sm:flex-row mt-2 sm:mt-4 lg:mt-8">
-                  <Link
-                    href="/layanan"
-                    className={`${tiltneon.className} text-xl gap-2 box-border relative z-30 inline-flex items-center justify-center w-auto px-4 py-2 lg:px-8 lg:py-3 overflow-hidden font-medium text-[#00A63E] transition-all duration-300 bg-gradient-to-b from-white to-gray-200 rounded-full cursor-pointer group ring-offset-2 ring-2 ring-[#00CF0A]/50 ring-offset-[#FFFFFF]/50 hover:ring-offset-[#00CF0A]/50 ease focus:outline-none`}
-                    rel="canonical"
-                  >
-                    Layanan Kami
-                    <ArrowUpRight className="group-hover:-translate-y-1 transition-all" />
-                  </Link>
-                </div>
-              </div>
-              <div className="md:w-4/12">
-                <Image
-                  src="/images/hero-lancarin.png"
-                  width={1000}
-                  height={1000}
-                  alt="AC Maintenance Picture"
-                  className="w-auto h-full"
-                />
-              </div>
-            </div>
-          </div> */}
-
           <Hero />
 
           <VelocityScroll className={`${tiltwarp.className} text-[#00A63E]`}>
@@ -128,77 +88,22 @@ export default function Home() {
           </div>
 
           <BlogSection />
-
-          {/* <div className="py-10 flex flex-col justify-center items-center gap-10 p-16 px-10 lg:px-20 xl:px-40 rounded-xl">
-            <h2
-              className={`${tiltwarp.className} text-2xl sm:text-4xl text-center w-full text-[#00A63E]`}
-            >
-              Lancarin membantu kamu mengatasi permasalahan home service dengan
-              baik supaya rumah kamu jadi lebih nyaman.
-            </h2>
-
-            <div
-              className={`${tiltneon.className} text-md sm:text-xl text-center w-full`}
-            >
-              Bingung saluran mampet atasinnya gimana? Cari servis AC di mana?
-              Atau saluran pembuangan? Lancarin Aja!
-            </div>
-            <div
-              className={`${tiltneon.className} grid grid-cols-1 sm:grid-cols-2 w-full gap-6`}
-            >
-              <div className="flex gap-3 text-md sm:text-lg text-justify justify-center items-start text-green-600">
-                <div>
-                  <IoCheckmarkDoneCircleOutline size={50} />
-                </div>
-                <p>
-                  Layanan mudah dan terjangkau – Kamu gak perlu ribet cari
-                  tukang servis atau jasa bersih secara manual, langsung hubungi
-                  kami aja!
-                </p>
-              </div>
-
-              <div className="flex gap-3 text-md sm:text-lg text-justify justify-center items-start text-green-600">
-                <div>
-                  <IoCheckmarkDoneCircleOutline size={50} />
-                </div>
-                <p>
-                  Saran dan catatan – Teknisi akan beri saran untuk maintenance
-                  ataupun permasalahan setelah teknisi datang ke rumah kamu
-                </p>
-              </div>
-
-              <div className="flex gap-3 text-md sm:text-lg text-justify justify-center items-start text-green-600">
-                <div>
-                  <IoCheckmarkDoneCircleOutline size={50} />
-                </div>
-                <p>
-                  Layanan cepat dan responsif – Kami paham bahwa masalah di
-                  rumah gak bisa nunggu lama. Tim kami siap datang dengan cepat
-                  setelah pemesanan.
-                </p>
-              </div>
-
-              <div className="flex gap-3 text-md sm:text-lg text-justify justify-center items-start text-green-600">
-                <div>
-                  <IoCheckmarkDoneCircleOutline size={50} />
-                </div>
-                <p>
-                  Garansi Layanan – Kami memberikan garansi untuk setiap layanan
-                  yang dikerjakan, jadi kalau ada kendala setelah servis, kami
-                  siap bantu tanpa biaya tambahan.
-                </p>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className={`${tiltwarp.className} w-full text-green-500 py-10`}>
-            <h2 className="text-xl sm:text-3xl text-center">
-              Untuk kamu, layanan terjangkau dan komplit!
-            </h2>
-            <SquishyCard />
-          </div> */}
         </div>
       </main>
     </>
   );
 }
+
+// hello next developer
+// this is the main page of the website
+// i have left this message as footnote on some features still missing and need to know stuff for the development of the website
+// 1. still missing / not working mobile version for the website main page
+// 2. still missing / not working site analytics for internal use
+// 3. google search engine optimization
+// 4. calendly api still using a free version and missing implementation in main page (max 15 days of use)
+// 5. website design and flow still need to be improved
+// any additional revision can directly asked by the head director or any project manager and supervisor
+// if you (the next developer taking over the project) have any question or need to discuss about the project
+// please screenshot this message and send it to my personal email (athiflanang@gmail.com)
+// i will be happy to help you the best i can
+// i hope this project can be finished and launched as soon as possible, good luck and godspeed
